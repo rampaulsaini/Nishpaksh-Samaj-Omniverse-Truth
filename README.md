@@ -107,3 +107,27 @@ This repository also hosts:
 
 ## ⚙️ Developer Section  
 Website source files:
+---
+
+## 🔗 Social Profiles  
+- 🌐 Website: https://rampaulsaini.github.io/my-omniverse-store/  
+- 📘 Facebook  
+- 📝 Blog  
+- ▶️ YouTube  
+- 💬 WhatsApp Community  
+
+---
+
+## ✍️ Author  
+**शिरोमणि रामपॉल सैनी**  
+*The Founder of Nishpaksh Samaj & Omniverse Truth Model*  
+India → Humanity → Entire Omniverse
+
+---
+
+## 📌 License  
+This Project is released under:  
+**Humanity–Earth–Omniverse Open License (HEOOL-01)**  
+(आपके नाम पर तैयार किया हुआ विशेष लाइसेंस)
+
+---
