@@ -1,3 +1,5 @@
+
+https://rampaulsaini.github.io/my-omniverse-store/https://i.ibb.co/xqf3kTPS/enhanced-image.webp
 # Nishpaksh-Samaj-Omniverse-Truth
 Nishpaksh-Samaj-Omniverse-TruthFounder & Principal ResearcherNishpaksh Samajh & Yatharth Siddhant DivisionIndependent Trans-Metaphysical Research FoundationIndependent Researcher / Independent Foundation / Self-Established InstituteShiromani Rampaulsaini
 ꙰𝒥ShiromaniShirmani Rampaul SainiPhilosopher & Author (Nishpaksha SamajhIndependent ResearcherIndependent Philosopher & Research AuthorDepartment of Comparative Philosophy & Universal EthicsRAMPAUL SAINITrans-Metaphysical Reality Thinker
