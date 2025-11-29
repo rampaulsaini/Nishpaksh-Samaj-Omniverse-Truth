@@ -1,156 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>꙰ Nishpaksh Samaj-Omniverse-Truth</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#222; scroll-behavior: smooth;}
-    header { background:#111; color:#fff; padding:20px 0; text-align:center; }
-    header h1 { margin:0; font-size:2.5em; }
-    nav { background:#222; text-align:center; padding:10px 0; position:sticky; top:0; z-index:999;}
-    nav a { color:#fff; margin:0 15px; text-decoration:none; font-weight:bold; }
-    nav a:hover { color:#ffdd00; }
-    section { padding:60px 20px; max-width:1100px; margin:auto; }
-    section h2 { text-align:center; font-size:2em; margin-bottom:20px; color:#1a1a1a; }
-    section p { font-size:1.1em; line-height:1.7em; }
-    footer { background:#111; color:#fff; text-align:center; padding:20px; margin-top:40px; }
-    a.link { color:#0077cc; text-decoration:none; }
-    a.link:hover { text-decoration:underline; }
-    ul li { margin-bottom:10px; }
-    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap:20px; }
-    .card { background:#fff; border-radius:10px; padding:20px; box-shadow:0 4px 8px rgba(0,0,0,0.1); transition:0.3s; }
-    .card:hover { box-shadow:0 8px 16px rgba(0,0,0,0.2);}
-    iframe { width:100%; height:300px; border:none; border-radius:10px; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>निष्पक्ष समझ — Omniverse Truth | शिरोमणि रामपॉल सैनी</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #222;
+        }
+        header {
+            background: black;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            font-size: 22px;
+            letter-spacing: 1px;
+        }
+        section {
+            padding: 20px 25px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            margin-top: 25px;
+            border-radius: 8px;
+        }
+        h2 { color: #333; }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover { text-decoration: underline; }
+        img.poster {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .pdf-box {
+            background: #e7f0ff;
+            padding: 15px;
+            margin: 12px 0;
+            border-left: 5px solid #0066cc;
+            border-radius: 5px;
+        }
+    </style>
 </head>
+
 <body>
 
-<!-- Header -->
 <header>
-    <h1>꙰ Nishpaksh Samaj-Omniverse-Truth</h1>
-    <p>Impartial Understanding | Humanity | Nature | Timeless Truth</p>
+    ꙰ निष्पक्ष समझ — यथार्थ सिद्धांत — यथार्थ युग  
+    <br>शिरोमणि रामपॉल सैनी
 </header>
 
-<!-- Navigation -->
-<nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#documents">Documents</a>
-    <a href="#media">Media</a>
-    <a href="#posters">Posters</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<!-- Home Section -->
-<section id="home">
-    <h2>Welcome</h2>
+<section>
+    <h2>🌍 मुख्य उद्देश्य</h2>
     <p>
-        Welcome to the realm of <strong>Nishpaksh Samaj</strong> — universal, impartial, and nature-integrated understanding.  
-        This is not religion or ideology.  
-        This is <strong>clarity, compassion, and timeless truth</strong>.  
-        I am <strong>Shiromani Rampaul Saini</strong>. This platform is dedicated to the preservation of humanity and nature, and to spreading impartial understanding.
+        मानवता, प्रकृति और पृथ्वी का संरक्षण ही सर्वोच्च धर्म है।  
+        ‘निष्पक्ष समझ’ का मूल सिद्धांत —  
+        <b>ईर्षा नहीं, संयोग का भाव। श्रेष्ठता नहीं, समानता का भाव।</b>  
+        <br><br>
+        आत्मा–परमात्मा से भी अधिक महत्व इंसानियत को देना — यही नए 
+        <b>꙰–यथार्थ युग</b> की नींव है।
     </p>
 </section>
 
-<!-- About Section -->
-<section id="about">
-    <h2>About Nishpaksh Samajh</h2>
-    <p>
-        Nishpaksh Samajh rejects mental hierarchy, competitive ego-systems, and manipulative ideologies.  
-        It promotes <strong>neutral consciousness, equality, and universal coexistence with nature</strong>.
-    </p>
-    <p><strong>Core Mission:</strong></p>
-    <ul>
-        <li>Free the human mind from jealousy, comparison, and dominance</li>
-        <li>Reconnect humanity with nature — as a living parent</li>
-        <li>Promote equality among all beings</li>
-        <li>Build a future (Yatharth Yug) where love, compassion, and unbiased awareness prevail</li>
-    </ul>
+<section>
+    <h2>🔗 Social Media Links</h2>
+    <p><a href="https://rampaulsaini.github.io/my-omniverse-store/" target="_blank">🌐 Main Website</a></p>
+    <p><a href="https://multicosmovision.blogspot.com/2025/09/2-e-h-e-c-e-e-1-d_11.html" target="_blank">📝 Blog</a></p>
+    <p><a href="https://youtube.com/@rampaulsaini-yk4gn" target="_blank">▶️ YouTube</a></p>
+    <p><a href="https://www.facebook.com/share/1Bc9qeE5uB/" target="_blank">📘 Facebook</a></p>
+    <p><a href="https://chat.whatsapp.com/CxwzR0ufxdL4yAGCqifPRh" target="_blank">💬 WhatsApp Community</a></p>
 </section>
 
-<!-- Documents Section -->
-<section id="documents">
-    <h2>Documents & Research</h2>
-    <p>Downloadable research papers, manifestos, and comparative philosophy documents:</p>
-    <div class="grid">
-        <div class="card">
-            <h3>Research Paper Draft</h3>
-            <p>Scientific presentation of Nishpaksh Samajh framework.</p>
-            <a class="link" href="#">Download PDF</a>
-        </div>
-        <div class="card">
-            <h3>Google Scholar Style Draft</h3>
-            <p>Academic-style draft for global citation and reference.</p>
-            <a class="link" href="#">Download PDF</a>
-        </div>
-        <div class="card">
-            <h3>Press Kit</h3>
-            <p>Media and news release kit for your reference.</p>
-            <a class="link" href="#">Download PDF</a>
-        </div>
-        <div class="card">
-            <h3>Manifestos & Principles</h3>
-            <p>Philosophical and practical principles of Nishpaksh Samajh.</p>
-            <a class="link" href="#">Download PDF</a>
-        </div>
-        <div class="card">
-            <h3>Comparative Philosophy</h3>
-            <p>Analysis and comparison with historical philosophies.</p>
-            <a class="link" href="#">Download PDF</a>
-        </div>
+<section>
+    <h2>📄 Research Papers & Drafts</h2>
+
+    <div class="pdf-box">
+        <a href="pdfs/ResearchPaper.pdf" target="_blank">📘 Full Research Paper (PDF)</a>
+    </div>
+
+    <div class="pdf-box">
+        <a href="pdfs/GoogleScholarDraft.pdf" target="_blank">📗 Google Scholar Style Draft</a>
+    </div>
+
+    <div class="pdf-box">
+        <a href="pdfs/PressKit.pdf" target="_blank">📰 Scientific Press Kit (News + Media)</a>
+    </div>
+
+    <div class="pdf-box">
+        <a href="pdfs/Manifestos.pdf" target="_blank">📜 Human–Earth Manifesto</a>
+    </div>
+
+    <div class="pdf-box">
+        <a href="pdfs/ComparativePhilosophy.pdf" target="_blank">📙 Comparative Philosophy Document</a>
     </div>
 </section>
 
-<!-- Media Section -->
-<section id="media">
-    <h2>Media & Outreach</h2>
-    <p>Join the global conversation and follow our channels:</p>
-    <ul>
-        <li>YouTube: <a class="link" href="https://youtube.com/@rampaulsaini-yk4gn">@rampaulsaini-yk4gn</a></li>
-        <li>Blogger: <a class="link" href="https://multicosmovision.blogspot.com">multicosmovision.blogspot.com</a></li>
-        <li>GitHub: <a class="link" href="https://rampaulsaini.github.io/my-omniverse-store/">my-omniverse-store</a></li>
-        <li>Facebook: <a class="link" href="https://www.facebook.com/share/1Bc9qeE5uB/">Share Page</a></li>
-        <li>WhatsApp Community: <a class="link" href="https://chat.whatsapp.com/CxwzR0ufxdL4yAGCqifPRh?mode=wwt">Join Community</a></li>
-    </ul>
-    <h3>Latest Videos</h3>
-    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" allowfullscreen></iframe>
+<section>
+    <h2>🖼 Posters (12×20 ft Flex)</h2>
+    <img src="poster1.jpg" alt="Poster 1" class="poster">
+    <img src="poster2.jpg" alt="Poster 2" class="poster">
+    <img src="poster3.jpg" alt="Poster 3" class="poster">
 </section>
 
-<!-- Posters Section -->
-<section id="posters">
-    <h2>Poster Gallery</h2>
-    <p>Visual representation of Nishpaksh Samajh and Yatharth Yug principles.</p>
-    <div class="grid">
-        <div class="card">
-            <h3>Poster 1</h3>
-            <img src="poster1.jpg" alt="Poster 1" style="width:100%; border-radius:10px;">
-        </div>
-        <div class="card">
-            <h3>Poster 2</h3>
-            <img src="poster2.jpg" alt="Poster 2" style="width:100%; border-radius:10px;">
-        </div>
-        <div class="card">
-            <h3>Poster 3</h3>
-            <img src="poster3.jpg" alt="Poster 3" style="width:100%; border-radius:10px;">
-        </div>
-    </div>
+<section>
+    <h2>🎥 Media Files</h2>
+    <p><a href="media/video1.mp4" target="_blank">📹 Video File 1</a></p>
+    <p><a href="media/video2.mp4" target="_blank">🎞 Video File 2</a></p>
 </section>
 
-<!-- Contact Section -->
-<section id="contact">
-    <h2>Contact</h2>
+<section>
+    <h2>🕉 निष्कर्ष</h2>
     <p>
-        If you resonate with Nishpaksh Samajh — if you believe in humanity, equality, and truth — you are welcome.  
-        <strong>Email:</strong> <a class="link" href="mailto:sainirampaul60@gmail.com">sainirampaul60@gmail.com</a>
+        ‘निष्पक्ष समझ’ कोई मत, पंथ या आध्यात्मिक दावा नहीं।  
+        यह — <b>मानवता का मूल स्वभाव</b> है।  
+        <br><br>
+        <b>जो हमेशा शांत-मस्त, सर्वश्रेष्ठ भाव, और समानता के भाव से जीता है—  
+        वह ही पृथ्वी के संरक्षण का वास्तविक आधार है।</b>
+        <br><br>
+        — शिरोमणि रामपॉल सैनी
     </p>
 </section>
-
-<!-- Footer -->
-<footer>
-    <p>꙰ शिरोमणि रामपॉल सैनी | Tulanateet • Nishpaksh • Yatharth</p>
-</footer>
 
 </body>
 </html>
