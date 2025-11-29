@@ -1,1 +1,34 @@
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.pagesizes import A4
+
+styles = getSampleStyleSheet()
+story = []
+
+text = """
+Nishpaksh Samaj — Omniverse Truth
+Author: Shiromani Rampaul Saini
+
+This PDF contains an English overview of the core principles, because Hindi/Devanagari fonts
+cannot be embedded under current font restrictions.
+
+CORE IDEAS
+- Impartial Understanding (Nishpaksh Samaj)
+- Humanity-centered universal ethics
+- Equality, non-comparison, non-jealousy
+- Protection of Earth and Nature
+- Establishment of Yatharth Yug (True Age)
+- Peaceful, compassionate civilizational model
+
+This document is a placeholder for the full multilingual research paper.
+"""
+
+story.append(Paragraph(text, styles['Normal']))
+story.append(Spacer(1, 12))
+
+output_path = "/mnt/data/Nishpaksh_Samaj_Omniverse_Truth.pdf"
+doc = SimpleDocTemplate(output_path, pagesize=A4)
+doc.build(story)
+
+output_path
 
