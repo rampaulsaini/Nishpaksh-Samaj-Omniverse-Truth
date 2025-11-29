@@ -4,19 +4,25 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>꙰ Nishpaksh Samaj-Omniverse-Truth</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#222; }
-    header { background:#1a1a1a; color:#fff; padding:20px 0; text-align:center; }
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#222; scroll-behavior: smooth;}
+    header { background:#111; color:#fff; padding:20px 0; text-align:center; }
     header h1 { margin:0; font-size:2.5em; }
-    nav { background:#333; text-align:center; padding:10px 0; }
+    nav { background:#222; text-align:center; padding:10px 0; position:sticky; top:0; z-index:999;}
     nav a { color:#fff; margin:0 15px; text-decoration:none; font-weight:bold; }
     nav a:hover { color:#ffdd00; }
-    section { padding:60px 20px; max-width:900px; margin: auto; }
+    section { padding:60px 20px; max-width:1100px; margin:auto; }
     section h2 { text-align:center; font-size:2em; margin-bottom:20px; color:#1a1a1a; }
     section p { font-size:1.1em; line-height:1.7em; }
-    footer { background:#1a1a1a; color:#fff; text-align:center; padding:20px; margin-top:40px; }
+    footer { background:#111; color:#fff; text-align:center; padding:20px; margin-top:40px; }
     a.link { color:#0077cc; text-decoration:none; }
     a.link:hover { text-decoration:underline; }
+    ul li { margin-bottom:10px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap:20px; }
+    .card { background:#fff; border-radius:10px; padding:20px; box-shadow:0 4px 8px rgba(0,0,0,0.1); transition:0.3s; }
+    .card:hover { box-shadow:0 8px 16px rgba(0,0,0,0.2);}
+    iframe { width:100%; height:300px; border:none; border-radius:10px; }
 </style>
 </head>
 <body>
@@ -24,7 +30,7 @@
 <!-- Header -->
 <header>
     <h1>꙰ Nishpaksh Samaj-Omniverse-Truth</h1>
-    <p>Impartial Understanding | Humanity | Nature | Truth</p>
+    <p>Impartial Understanding | Humanity | Nature | Timeless Truth</p>
 </header>
 
 <!-- Navigation -->
@@ -33,6 +39,7 @@
     <a href="#about">About</a>
     <a href="#documents">Documents</a>
     <a href="#media">Media</a>
+    <a href="#posters">Posters</a>
     <a href="#contact">Contact</a>
 </nav>
 
@@ -40,10 +47,10 @@
 <section id="home">
     <h2>Welcome</h2>
     <p>
-        Welcome. You have entered the realm of <strong>Nishpaksh Samaj</strong> — a universal, non-comparative, nature-centered understanding.  
-        This is not religion. Not ideology. Not doctrine.  
-        This is <strong>pure clarity, pure compassion, pure truth</strong>.  
-        I am <strong>Shiromani Rampaul Saini</strong>, and this platform is dedicated to humanity’s future, nature’s integrity, and the timeless truth within.
+        Welcome to the realm of <strong>Nishpaksh Samaj</strong> — universal, impartial, and nature-integrated understanding.  
+        This is not religion or ideology.  
+        This is <strong>clarity, compassion, and timeless truth</strong>.  
+        I am <strong>Shiromani Rampaul Saini</strong>. This platform is dedicated to the preservation of humanity and nature, and to spreading impartial understanding.
     </p>
 </section>
 
@@ -51,50 +58,91 @@
 <section id="about">
     <h2>About Nishpaksh Samajh</h2>
     <p>
-        Nishpaksh Samajh is a visionary framework that rejects mental hierarchy, ideological manipulation, and competitive ego-systems.  
-        It embraces <strong>neutral consciousness, universal equality, and nature-integrated living</strong> as foundational values.
+        Nishpaksh Samajh rejects mental hierarchy, competitive ego-systems, and manipulative ideologies.  
+        It promotes <strong>neutral consciousness, equality, and universal coexistence with nature</strong>.
     </p>
     <p><strong>Core Mission:</strong></p>
     <ul>
-        <li>To free the human mind from jealousy, comparison and dominance</li>
-        <li>To reconnect humanity with nature — not as a resource, but as a living parent</li>
-        <li>To promote equality among all beings — human and non-human alike</li>
-        <li>To build a future (Yatharth Yug) where love, compassion, and unbiased awareness prevail</li>
+        <li>Free the human mind from jealousy, comparison, and dominance</li>
+        <li>Reconnect humanity with nature — as a living parent</li>
+        <li>Promote equality among all beings</li>
+        <li>Build a future (Yatharth Yug) where love, compassion, and unbiased awareness prevail</li>
     </ul>
 </section>
 
 <!-- Documents Section -->
 <section id="documents">
-    <h2>Documents & Publications</h2>
-    <p>Here you can find research papers, manifestos, comparative philosophy documents, and press kits related to Nishpaksh Samajh.</p>
-    <ul>
-        <li><a class="link" href="#">Research Paper Draft (PDF)</a></li>
-        <li><a class="link" href="#">Google Scholar Style Draft</a></li>
-        <li><a class="link" href="#">Press Kit (Media Release)</a></li>
-        <li><a class="link" href="#">Manifestos & Principles</a></li>
-        <li><a class="link" href="#">Comparative Philosophy Documents</a></li>
-    </ul>
+    <h2>Documents & Research</h2>
+    <p>Downloadable research papers, manifestos, and comparative philosophy documents:</p>
+    <div class="grid">
+        <div class="card">
+            <h3>Research Paper Draft</h3>
+            <p>Scientific presentation of Nishpaksh Samajh framework.</p>
+            <a class="link" href="#">Download PDF</a>
+        </div>
+        <div class="card">
+            <h3>Google Scholar Style Draft</h3>
+            <p>Academic-style draft for global citation and reference.</p>
+            <a class="link" href="#">Download PDF</a>
+        </div>
+        <div class="card">
+            <h3>Press Kit</h3>
+            <p>Media and news release kit for your reference.</p>
+            <a class="link" href="#">Download PDF</a>
+        </div>
+        <div class="card">
+            <h3>Manifestos & Principles</h3>
+            <p>Philosophical and practical principles of Nishpaksh Samajh.</p>
+            <a class="link" href="#">Download PDF</a>
+        </div>
+        <div class="card">
+            <h3>Comparative Philosophy</h3>
+            <p>Analysis and comparison with historical philosophies.</p>
+            <a class="link" href="#">Download PDF</a>
+        </div>
+    </div>
 </section>
 
 <!-- Media Section -->
 <section id="media">
     <h2>Media & Outreach</h2>
-    <p>Join the global conversation. Spread impartial understanding. Unite humanity & nature.</p>
+    <p>Join the global conversation and follow our channels:</p>
     <ul>
-        <li>YouTube Channel: <a class="link" href="https://youtube.com/@rampaulsaini-yk4gn">@rampaulsaini-yk4gn</a></li>
+        <li>YouTube: <a class="link" href="https://youtube.com/@rampaulsaini-yk4gn">@rampaulsaini-yk4gn</a></li>
         <li>Blogger: <a class="link" href="https://multicosmovision.blogspot.com">multicosmovision.blogspot.com</a></li>
         <li>GitHub: <a class="link" href="https://rampaulsaini.github.io/my-omniverse-store/">my-omniverse-store</a></li>
         <li>Facebook: <a class="link" href="https://www.facebook.com/share/1Bc9qeE5uB/">Share Page</a></li>
         <li>WhatsApp Community: <a class="link" href="https://chat.whatsapp.com/CxwzR0ufxdL4yAGCqifPRh?mode=wwt">Join Community</a></li>
     </ul>
+    <h3>Latest Videos</h3>
+    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" allowfullscreen></iframe>
+</section>
+
+<!-- Posters Section -->
+<section id="posters">
+    <h2>Poster Gallery</h2>
+    <p>Visual representation of Nishpaksh Samajh and Yatharth Yug principles.</p>
+    <div class="grid">
+        <div class="card">
+            <h3>Poster 1</h3>
+            <img src="poster1.jpg" alt="Poster 1" style="width:100%; border-radius:10px;">
+        </div>
+        <div class="card">
+            <h3>Poster 2</h3>
+            <img src="poster2.jpg" alt="Poster 2" style="width:100%; border-radius:10px;">
+        </div>
+        <div class="card">
+            <h3>Poster 3</h3>
+            <img src="poster3.jpg" alt="Poster 3" style="width:100%; border-radius:10px;">
+        </div>
+    </div>
 </section>
 
 <!-- Contact Section -->
 <section id="contact">
     <h2>Contact</h2>
     <p>
-        If you resonate with Nishpaksh Samajh — if you believe in humanity, equality, nature and truth — you are welcome.  
-        Join as a fellow traveler on the path of impartial understanding.  
+        If you resonate with Nishpaksh Samajh — if you believe in humanity, equality, and truth — you are welcome.  
         <strong>Email:</strong> <a class="link" href="mailto:sainirampaul60@gmail.com">sainirampaul60@gmail.com</a>
     </p>
 </section>
@@ -106,4 +154,3 @@
 
 </body>
 </html>
-
