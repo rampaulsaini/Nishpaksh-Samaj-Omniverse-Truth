@@ -131,4 +131,25 @@
 </section>
 
 </body>
-</html>
+</<!-- PDF Download Section -->
+<div style="text-align:center; margin:40px 0;">
+    <a href="assets/pdfs/Nishpaksh_Samaj_Omniverse_Truth.pdf"
+       style="
+            display:inline-block;
+            padding:15px 30px;
+            background:#ffffff;
+            border:2px solid #0066ff;
+            border-radius:12px;
+            color:#0066ff;
+            font-size:18px;
+            font-weight:bold;
+            text-decoration:none;
+            box-shadow:0 0 10px rgba(0,0,0,0.15);
+            transition:0.3s;
+       ">
+        📄 Download Nishpaksh Samaj — Omniverse Truth (PDF)
+    </a>
+</div>
+>
+📄 Download Nishpaksh Samaj Research PDF
+
