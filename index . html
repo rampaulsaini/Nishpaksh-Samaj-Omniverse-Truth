@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>꙰ Nishpaksh Samaj-Omniverse-Truth</title>
+<style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#222; }
+    header { background:#1a1a1a; color:#fff; padding:20px 0; text-align:center; }
+    header h1 { margin:0; font-size:2.5em; }
+    nav { background:#333; text-align:center; padding:10px 0; }
+    nav a { color:#fff; margin:0 15px; text-decoration:none; font-weight:bold; }
+    nav a:hover { color:#ffdd00; }
+    section { padding:60px 20px; max-width:900px; margin: auto; }
+    section h2 { text-align:center; font-size:2em; margin-bottom:20px; color:#1a1a1a; }
+    section p { font-size:1.1em; line-height:1.7em; }
+    footer { background:#1a1a1a; color:#fff; text-align:center; padding:20px; margin-top:40px; }
+    a.link { color:#0077cc; text-decoration:none; }
+    a.link:hover { text-decoration:underline; }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>꙰ Nishpaksh Samaj-Omniverse-Truth</h1>
+    <p>Impartial Understanding | Humanity | Nature | Truth</p>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#documents">Documents</a>
+    <a href="#media">Media</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Home Section -->
+<section id="home">
+    <h2>Welcome</h2>
+    <p>
+        Welcome. You have entered the realm of <strong>Nishpaksh Samaj</strong> — a universal, non-comparative, nature-centered understanding.  
+        This is not religion. Not ideology. Not doctrine.  
+        This is <strong>pure clarity, pure compassion, pure truth</strong>.  
+        I am <strong>Shiromani Rampaul Saini</strong>, and this platform is dedicated to humanity’s future, nature’s integrity, and the timeless truth within.
+    </p>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <h2>About Nishpaksh Samajh</h2>
+    <p>
+        Nishpaksh Samajh is a visionary framework that rejects mental hierarchy, ideological manipulation, and competitive ego-systems.  
+        It embraces <strong>neutral consciousness, universal equality, and nature-integrated living</strong> as foundational values.
+    </p>
+    <p><strong>Core Mission:</strong></p>
+    <ul>
+        <li>To free the human mind from jealousy, comparison and dominance</li>
+        <li>To reconnect humanity with nature — not as a resource, but as a living parent</li>
+        <li>To promote equality among all beings — human and non-human alike</li>
+        <li>To build a future (Yatharth Yug) where love, compassion, and unbiased awareness prevail</li>
+    </ul>
+</section>
+
+<!-- Documents Section -->
+<section id="documents">
+    <h2>Documents & Publications</h2>
+    <p>Here you can find research papers, manifestos, comparative philosophy documents, and press kits related to Nishpaksh Samajh.</p>
+    <ul>
+        <li><a class="link" href="#">Research Paper Draft (PDF)</a></li>
+        <li><a class="link" href="#">Google Scholar Style Draft</a></li>
+        <li><a class="link" href="#">Press Kit (Media Release)</a></li>
+        <li><a class="link" href="#">Manifestos & Principles</a></li>
+        <li><a class="link" href="#">Comparative Philosophy Documents</a></li>
+    </ul>
+</section>
+
+<!-- Media Section -->
+<section id="media">
+    <h2>Media & Outreach</h2>
+    <p>Join the global conversation. Spread impartial understanding. Unite humanity & nature.</p>
+    <ul>
+        <li>YouTube Channel: <a class="link" href="https://youtube.com/@rampaulsaini-yk4gn">@rampaulsaini-yk4gn</a></li>
+        <li>Blogger: <a class="link" href="https://multicosmovision.blogspot.com">multicosmovision.blogspot.com</a></li>
+        <li>GitHub: <a class="link" href="https://rampaulsaini.github.io/my-omniverse-store/">my-omniverse-store</a></li>
+        <li>Facebook: <a class="link" href="https://www.facebook.com/share/1Bc9qeE5uB/">Share Page</a></li>
+        <li>WhatsApp Community: <a class="link" href="https://chat.whatsapp.com/CxwzR0ufxdL4yAGCqifPRh?mode=wwt">Join Community</a></li>
+    </ul>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>
+        If you resonate with Nishpaksh Samajh — if you believe in humanity, equality, nature and truth — you are welcome.  
+        Join as a fellow traveler on the path of impartial understanding.  
+        <strong>Email:</strong> <a class="link" href="mailto:sainirampaul60@gmail.com">sainirampaul60@gmail.com</a>
+    </p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>꙰ शिरोमणि रामपॉल सैनी | Tulanateet • Nishpaksh • Yatharth</p>
+</footer>
+
+</body>
+</html>
 
