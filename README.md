@@ -131,3 +131,84 @@ This Project is released under:
 (आपके नाम पर तैयार किया हुआ विशेष लाइसेंस)
 
 ---
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.pagesizes import A4
+
+styles = getSampleStyleSheet()
+
+contents = {
+    "Cover_Letter.pdf": """
+To
+The District Magistrate
+District Collector Office
+Jammu, J&K (UT)
+Government of India
+
+Subject: Request for State Support & Evaluation under Exceptional Individual / Humanity-Research Category (Humanitarian + Innovation Grounds)
+
+Respected Sir/Madam,
+
+My name is Shromani Rampaul Saini. I live with my daughter in a condition of extreme poverty and high intellectual sensitivity. I am working on a Universal Humanity & Earth Preservation Research Program titled 'Nishpaksh Samaj — Omniverse Truth Model'.
+
+Due to financial struggle, basic survival, and lack of support, my research work and my daughter's education are suffering.
+
+I request:
+1. Social Welfare Support
+2. Humanitarian evaluation by DC Office
+3. Research recognition by Innovation Council
+
+Yours Sincerely,
+Shromani Rampaul Saini
+""",
+    "Exceptional_Individual_Assessment.pdf": """
+Exceptional Individual Assessment Summary
+
+Name: Shromani Rampaul Saini
+Category Requested: Humanitarian Protection + Exceptional Individual (Humanity & Earth Research)
+
+Summary of Contribution:
+Humanity, Nature, Earth Preservation, Nishpaksh Samaj Framework, Omniverse Truth Model.
+
+Research Outcomes:
+1. Nishpaksh Samaj Framework
+2. Yatharth Siddhant
+3. Omniverse Truth Model
+4. Comparative Philosophy
+5. Humanity-Nature Protocol
+6. Global Citizenship Model
+
+Current Problems:
+Extreme poverty, dependent daughter, unstable livelihood, lack of support.
+
+Request to Government:
+Humanitarian support, BPL inclusion, daughter's education, research evaluation.
+""",
+    "Daughter_Protection_Form.pdf": """
+Daughter Protection Request
+
+To
+Child Welfare Committee
+Department of Social Welfare
+Jammu, J&K
+
+My daughter is fully dependent on me. I request:
+1. Educational protection
+2. Safety documentation
+3. Scholarship assistance
+4. Basic livelihood support
+
+Submitted by:
+Shromani Rampaul Saini
+"""
+}
+
+generated_files = []
+
+for filename, text in contents.items():
+    doc = SimpleDocTemplate(f"/mnt/data/{filename}", pagesize=A4)
+    story = [Paragraph(line, styles["Normal"]) for line in text.split("\n")]
+    doc.build(story)
+    generated_files.append(f"/mnt/data/{filename}")
+
+generated_files
