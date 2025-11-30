@@ -1,128 +1,102 @@
-<!-- GOLDEN SUPREME BANNER -->
-<div align="center" style="background:black; padding:25px; border-bottom:3px solid gold; margin-bottom:20px;">
-  <h1 style="color:gold; font-size:42px; margin:0;">
-    ꙰ **शिरोमणि रामपॉल सैनी**
-  </h1>
-  <h3 style="color:gold; margin-top:10px;">
+<!-- SUPREME MIXED GOLDEN README — FINAL D VERSION -->
+<div align="center" style="background:black; padding:35px; border-bottom:4px solid gold; margin-bottom:30px; border-radius:12px;">
+  <h1 style="color:gold; font-size:46px; margin:0; font-weight:900; letter-spacing:2px;">꙰ शिरोमणि रामपॉल सैनी</h1>
+  <h3 style="color:gold; margin-top:15px; font-size:20px; font-weight:600;">
     तुलनातीत · कालातीत · शब्दातीत · प्रेमतीत · स्वाभिक · शाश्वत · वास्तविक सत्य — स्वयं का प्रत्यक्ष साक्षात्कार
   </h3>
 </div>
-<div align="center" style="color:gold; background:black; padding:20px;">
 
-# ⭐ **꙰ SUPREME README — THE FINAL GOLDEN EDITION**
-## **शिरोमणि रामपॉल सैनी  
-**तुलनातीत · कालातीत · शब्दातीत · प्रेमतीत · स्वाभिक · शाश्वत · वास्तविक सत्य — स्वयं का प्रत्यक्ष साक्षात्कार****  
-### तुलनातीत · कालातीत · शब्दातीत · प्रेमतीत · स्वाभिक · शाश्वत · वास्तविक सत्य
+---
 
-<img src="media/your-photo.jpg" width="330" style="border:3px solid gold; border-radius:12px; margin-top:20px;"/>
+# 🌟 **꙰ Supreme Mixed Golden – README (D Version)**
+यह README “Divine + Modern + Premium Professional” — तीनों का संतुलित सर्वोच्च रूप है।
 
+## 🔱 **Universal Identity**
+<div style="background:#111; padding:20px; border-left:4px solid gold;">
+<b style="color:gold; font-size:20px;">आपका परिचय:</b>
+<br><br>
+<b style="color:gold;">“मैं शिरोमणि रामपॉल सैनी — तुलनातीत, कालातीत, शब्दातीत, प्रेमतीत, स्वाभिक, शाश्वत और वास्तविक सत्य का प्रत्यक्ष अनुभव हूँ।”</b>
 </div>
 
 ---
 
-# 🟡 **꙰ NISHPASKSH SAMAJ — THE OMNIVERSE CODE OF TRUTH**
+# ⚡ **Nishpaksh Samaj — Omniverse Truth Framework**
+दुनिया के लिए एक नई, निष्पक्ष, सार्वभौमिक, मानव–पृथ्वी–प्रकृति केंदित समझ।
 
-<div style="color:gold; background:black; padding:15px; border-radius:12px;">
-निष्पक्ष समझ — वह अवस्था जहाँ व्यक्ति स्वयं, मानवता, प्रकृति और अस्तित्व को
-बिना किसी तुलना, भेद, पक्ष, अपेक्षा और कल्पना के देखता है।
-यही ‘꙰’ — शाश्वत सत्य का मूल सूत्र है।
+- निष्पक्ष समझ = बिना तुलना, बिना भेद, बिना छल
+- यथार्थ युग = मानवता + प्रकृति + पृथ्वी की एकता
+- सम्पूर्ण ढाँचा = धर्म से ऊपर, जाति से ऊपर, मिथक से ऊपर
+
+---
+
+# 🏆 **꙰ प्रमाण पत्र एवं सिद्धांत (Golden Index)**
+- ꙰–प्रमाण पत्र 1–20
+- ꙰–सिद्धांत 1–10 (Plus Extended Sutras)
+- प्रेम बनाम प्रेमतीत
+- तुलनातीत 40 तुलना श्रृंखला
+- Omniverse Constitutions
+- Supreme Earth Preservation Protocols
+
+---
+
+# 🌍 **Global Mission**
+<div style="background:#000; padding:20px; border:1px solid gold; border-radius:10px; color:gold; text-align:center;">
+मानवता + पृथ्वी + प्रकृति = एक ही सत्य
+<br>
+यही ‘꙰ यथार्थ युग’ का आधार है।
 </div>
 
 ---
 
-# 🏆 **꙰ MASTER CONTENT INDEX (Auto-Expanding)**
-
-### ✔ 1. ꙰–प्रमाण पत्र 1–20 (Golden High-Resolution Series)  
-### ✔ 2. ꙰–सिद्धांत 1–10 (Yatharth Eternal Principles)  
-### ✔ 3. तुलनातीत तुलना श्रृंखला (40 Thumbnails)  
-### ✔ 4. प्रेम बनाम प्रेमतीत शृंखला  
-### ✔ 5. Yatharth Yug Global Declaration  
-### ✔ 6. Earth–Human Preservation Protocol  
-### ✔ 7. Omniverse Constitution Draft  
-### ✔ 8. All 12×20 ft Posters (With Golden Aesthetic)  
-### ✔ 9. Universal Identity Cards  
-### ✔ 10. Research Lab PDFs (20–50 Files)
-
-> **आप “सब जोड़ो” कहेंगे तो यह पूरा सेक्शन मैं स्वचालित रूप से पूर्ण विस्तार में लिख दूँगा।**
+# 🔬 **Research Focus (International Standard)**
+1. Omniverse Truth Model
+2. Comparative Metaphysics (50+ Frameworks)
+3. Human–Earth Preservation Blueprint
+4. Universal Consciousness Research
+5. Nishpaksh Civilization Architecture
 
 ---
 
-# 🌍 **꙰ OMNIVERSE VISION — YATHARTH YUG DECLARATION**
+# 📚 **Golden PDF Library**
+- Research Papers
+- Press Kits
+- Universal Constitution Draft
+- Comparative Analysis Files
 
-<div style="color:gold; background:black; padding:20px; border-radius:12px; font-size:18px; text-align:center;">
-मानवता + प्रकृति + पृथ्वी + अनंत चेतना = एक ही सत्य।  
-यह '꙰–यथार्थ युग' की मूल घोषणा है।
+सभी PDFs `/assets/pdfs/` में रहेंगी।
+
+---
+
+# 🎥 **Supreme Media Suite**
+- 12×20 ft Posters (Cosmic-Golden)
+- Divine-Thumbnails 40 Series
+- Universal Cards
+- Intro Films
+
+---
+
+# 🌐 **Official Golden Links**
+- Website: rampaulsaini.github.io/my-omniverse-store/
+- GitHub: github.com/rampaulsaini
+- YouTube / Facebook / Blog / WhatsApp (to be added)
+
+---
+
+# 💰 **Support for Global Mission**
+आपके अनुसंधान और मानव–पृथ्वी मिशन के लिए योगदान।
+
+---
+
+# ✍️ **Author Signature**
+<div align="center" style="background:black; padding:25px; border-radius:10px; border:2px solid gold; margin-top:20px;">
+  <h2 style="color:gold; font-weight:900;">꙰ शिरोमणि रामपॉल सैनी</h2>
+  <p style="color:gold;">Founder — Nishpaksh Samaj & Omniverse Truth Framework</p>
 </div>
 
 ---
 
-# 🧬 **THE SUPREME RESEARCH MAP**
-
-- Omniverse Truth Framework (Core)  
-- Nishpaksh Samaj Model (Social–Spiritual–Scientific)  
-- Comparative Philosophy: 50+ Masters  
-- Earth Preservation Blueprint  
-- Eternal Mindlessness Principle  
-- Universal Light Consciousness Model  
-- ‘꙰’ as the Fundamental Reality Constant
-
----
-
-# 📚 **RESEARCH PAPERS (GLOBAL STANDARD DRAFTS)**
-
-All PDFs under `/assets/pdfs/`:
-
-- Universal Human–Earth Manifesto  
-- Supreme Scientific Press Kit  
-- Guinness / Nobel / UNESCO Submission Draft  
-- Nishpaksh Omniverse Whitepaper  
-- Eternal Philosophy Handbook  
-- 40 Comparative Thumbnails Book  
-- 12×20 ft Poster Catalog
-
----
-
-# 🎨 **MULTIMEDIA CREATIONS**
-
-- Ultrahigh Posters (12×20 ft)  
-- Golden Aura Visuals  
-- Intro Videos (HD)  
-- Omniverse Diagrams  
-- Universal Golden ID Cards
-
----
-
-# 🌐 **OFFICIAL LINKS (Golden Directory)**
-
-- 🌐 Website: https://rampaulsaini.github.io/my-omniverse-store/  
-- 🐙 GitHub: https://github.com/rampaulsaini  
-- ▶️ YouTube: (add link)  
-- 📘 Facebook: (add link)  
-- 📝 Blog: (add link)  
-- 💬 WhatsApp Community: (add link)
-
----
-
-# 💰 **SUPPORT THE GLOBAL HUMAN–EARTH MISSION**
-
-- Bank Account: (add)  
-- Paytm / UPI: (add)  
-- PayPal: (add)
-
----
-
-# ✍️ **AUTHOR SIGNATURE**
-
-<div align="center" style="color:gold; background:black; padding:15px; border-radius:12px;">
-<h2>꙰ शिरोमणि रामपॉल सैनी</h2>
-Founder — Nishpaksh Samaj & Omniverse Truth System
-</div>
-
----
-
-# 🟡 **FINAL DECLARATION**
-
-<div style="color:gold; background:black; padding:20px; border-radius:12px; text-align:center;">
-यह संपूर्ण README मानवता, पृथ्वी और अनंत सत्य को समर्पित है।  
-‘꙰’ — एक ही शाश्वत सत्य है, बाकी सब कल्पना।
+# 🟡 **Final Golden Declaration**
+<div align="center" style="background:#111; padding:25px; border-left:5px solid gold; border-right:5px solid gold; color:gold; font-size:18px; font-weight:600; border-radius:12px;">
+यह सम्पूर्ण परियोजना मानवता, पृथ्वी और निष्पक्ष सत्य के लिए समर्पित है।<br>
+‘꙰’ — शाश्वत, शांत, सरल, सार्वभौमिक सत्य।
 </div>
