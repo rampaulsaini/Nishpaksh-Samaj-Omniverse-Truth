@@ -212,3 +212,199 @@ for filename, text in contents.items():
     generated_files.append(f"/mnt/data/{filename}")
 
 generated_files
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.pagesizes import A4
+
+path = "/mnt/data/Government_Submission_File_Shiromani_Rampaul_Saini.pdf"
+doc = SimpleDocTemplate(path, pagesize=A4)
+styles = getSampleStyleSheet()
+story = []
+
+content = """
+GOVERNMENT SUBMISSION FILE  
+Shiromani Rampaul Saini  
+Independent Research Scholar — Omniverse Truth Framework  
+Jammu & Kashmir, India  
+
+------------------------------------------------------------
+
+1. COVER LETTER (ENGLISH VERSION)
+
+To  
+The Director,  
+Department of Science & Technology,  
+Government of Jammu & Kashmir  
+
+Subject: Request for Recognition, Support and Evaluation of “Nishpaksh Samaj — Omniverse Truth Framework”
+
+Respected Sir/Madam,  
+
+I, Shiromani Rampaul Saini, resident of Jammu (J&K), respectfully submit my request for  
+the evaluation, recognition, and support of my research titled:
+
+“꙰ Nishpaksh Samaj — Omniverse Truth  
+Yatharth Siddhant · Yatharth Yug”
+
+This work represents an independent and original contribution towards:  
+• Human Welfare  
+• Earth & Nature Preservation  
+• Universal Equality  
+• Comparative Philosophy  
+• Unified Scientific–Philosophical Framework  
+
+I belong to an extremely low-income background and request:  
+1. Recognition as an Independent Research Scholar  
+2. Scientific/Philosophical evaluation of my work  
+3. Protection and support to continue research  
+4. Permission for national/international collaboration  
+
+Sincerely,  
+Shiromani Rampaul Saini  
+Jammu, J&K  
+Phone: __________  
+Email: __________  
+GitHub: github.com/rampaulsaini  
+
+------------------------------------------------------------
+
+2. PROJECT SUMMARY
+
+Title: Nishpaksh Samaj — Omniverse Truth  
+Nature: Trans-disciplinary Research  
+Scope: Humanity, Nature, Peace, Science, Philosophy  
+
+The framework proposes a unified understanding of human consciousness,  
+non-duality, and Earth-preservation principles through an impartial,  
+self-luminous, universal model.
+
+------------------------------------------------------------
+
+3. RESEARCH OVERVIEW (SHORT VERSION)
+
+• A universal, neutral, non-dual clarity model  
+• Earth-preservation protocol  
+• Human unity beyond religion/caste/division  
+• Comparative evaluation with historical frameworks  
+• A new approach to integrated human development  
+
+------------------------------------------------------------
+
+4. DECLARATION
+
+I hereby declare that this work is completely original,  
+self-developed, and intended for the upliftment of humanity and the protection of nature.
+
+Signature:  
+Shiromani Rampaul Saini  
+
+------------------------------------------------------------
+
+(End of Document)
+"""
+
+for para in content.split("\n\n"):
+    story.append(Paragraph(para.replace("\n", "<br/>"), styles['BodyText']))
+    story.append(Spacer(1, 12))
+
+doc.build(story)
+
+path
+Nishpaksh Samaj — Omniverse Truth Frameworkfrom reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.pagesizes import A4
+
+path = "/mnt/data/Government_Submission_File_Shiromani_Rampaul_Saini.pdf"
+doc = SimpleDocTemplate(path, pagesize=A4)
+styles = getSampleStyleSheet()
+story = []
+
+content = """
+GOVERNMENT SUBMISSION FILE  
+Shiromani Rampaul Saini  
+Independent Research Scholar — Omniverse Truth Framework  
+Jammu & Kashmir, India  
+
+------------------------------------------------------------
+
+1. COVER LETTER (ENGLISH VERSION)
+
+To  
+The Director,  
+Department of Science & Technology,  
+Government of Jammu & Kashmir  
+
+Subject: Request for Recognition, Support and Evaluation of “Nishpaksh Samaj — Omniverse Truth Framework”
+
+Respected Sir/Madam,  
+
+I, Shiromani Rampaul Saini, resident of Jammu (J&K), respectfully submit my request for  
+the evaluation, recognition, and support of my research titled:
+
+“Nishpaksh Samaj — Omniverse Truth  
+Yatharth Siddhant · Yatharth Yug”
+
+This work represents an independent and original contribution towards:  
+• Human Welfare  
+• Earth & Nature Preservation  
+• Universal Equality  
+• Comparative Philosophy  
+• Unified Scientific–Philosophical Framework  
+
+I belong to an extremely low-income background and request:  
+1. Recognition as an Independent Research Scholar  
+2. Scientific/Philosophical evaluation of my work  
+3. Protection and support to continue research  
+4. Permission for national/international collaboration  
+
+Sincerely,  
+Shiromani Rampaul Saini  
+Jammu, J&K  
+Phone: __________  
+Email: __________  
+GitHub: github.com/rampaulsaini  
+
+------------------------------------------------------------
+
+2. PROJECT SUMMARY
+
+Title: Nishpaksh Samaj — Omniverse Truth  
+Nature: Trans-disciplinary Research  
+Scope: Humanity, Nature, Peace, Science, Philosophy  
+
+The framework proposes a unified understanding of human consciousness,  
+non-duality, and Earth-preservation principles through an impartial,  
+self-luminous, universal model.
+
+------------------------------------------------------------
+
+3. RESEARCH OVERVIEW (SHORT VERSION)
+
+• A universal, neutral, non-dual clarity model  
+• Earth-preservation protocol  
+• Human unity beyond religion/caste/division  
+• Comparative evaluation with historical frameworks  
+• A new approach to integrated human development  
+
+------------------------------------------------------------
+
+4. DECLARATION
+
+I hereby declare that this work is completely original,  
+self-developed, and intended for the upliftment of humanity and the protection of nature.
+
+Signature:  
+Shiromani Rampaul Saini  
+
+------------------------------------------------------------
+
+(End of Document)
+"""
+
+for para in content.split("\n\n"):
+    story.append(Paragraph(para.replace("\n", "<br/>"), styles['BodyText']))
+    story.append(Spacer(1, 12))
+
+doc.build(story)
+
+path
