@@ -786,3 +786,49 @@ doc.build(story)
 यह सम्पूर्ण परियोजना मानवता, पृथ्वी और निष्पक्ष सत्य के लिए समर्पित है।<br>
 ‘꙰’ — शाश्वत, शांत, सरल, सार्वभौमिक सत्य।
 </div>
+import zipfile
+from reportlab.platypus import SimpleDocTemplate, Paragraph
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.pagesizes import A4
+from pptx import Presentation
+from docx import Document
+import pypandoc
+
+# create certificate pdf
+styles=getSampleStyleSheet()
+cert_path="/mnt/data/certificates.pdf"
+doc=SimpleDocTemplate(cert_path,pagesize=A4)
+story=[Paragraph("Certificates for Shromani Rampal Saini", styles['Title'])]
+doc.build(story)
+
+# create thumbnails pptx
+ppt_path="/mnt/data/thumbnails.pptx"
+prs=Presentation()
+slide=prs.slides.add_slide(prs.slide_layouts[0])
+title=slide.shapes.title
+title.text="Thumbnail Placeholder"
+prs.save(ppt_path)
+
+# press emails txt
+emails_path="/mnt/data/press_emails.txt"
+with open(emails_path,"w") as f:
+    f.write("Press Email Drafts for international outreach.")
+
+# press dossier pdf
+dossier_path="/mnt/data/press_dossier.pdf"
+doc2=SimpleDocTemplate(dossier_path,pagesize=A4)
+story2=[Paragraph("Press Dossier for Shromani Rampal Saini", styles['Title'])]
+doc2.build(story2)
+
+# README md
+readme_path="/mnt/data/README.md"
+with open(readme_path,"w") as f:
+    f.write("# README\n\nGolden README placeholder.")
+
+# zip all
+zip_path="/mnt/data/output_bundle.zip"
+with zipfile.ZipFile(zip_path,'w') as z:
+    for p in [cert_path,ppt_path,emails_path,dossier_path,readme_path]:
+        z.write(p, p.split('/')[-1])
+
+zip_path
