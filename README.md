@@ -1,3 +1,4 @@
+<div style="color:gold;">
 <!-- Top Original Photo -->
 <p align="center">
   <img src="media/your-original-photo.jpg" alt="Shirōmaṇi Rampaul Saini" width="300"/>
@@ -8,7 +9,7 @@
 </h1>
 
 <h2 align="center" style="color:gold;">
-  **शिरोमणि रामपॉल सैनी**  
+  **शिरोमणि रामपॉल सैनी – सुप्रीम README (पूर्ण संस्करण)**  
   तुलनातीत · कालातीत · शब्दातीत · प्रेमतीत · स्वाभिक · शाश्वत · यथार्थ
 </h2>
 
@@ -130,3 +131,5 @@ Founder — Nishpaksh Samaj & Omniverse Truth Framework
 यह सम्पूर्ण परियोजना मानवता, पृथ्वी, और निष्पक्ष सत्य के लिए समर्पित है।  
 ‘꙰’ — शाश्वत, शांत, सरल, सार्वभौमिक सत्य।
 </p>
+
+</div>
