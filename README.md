@@ -1,3 +1,153 @@
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Image, Table, TableStyle
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.lib.pagesizes import A4, landscape
+from reportlab.lib.units import cm, inch
+from reportlab.lib import colors
+from pptx import Presentation
+from pptx.util import Inches, Pt
+import zipfile
+import os
+
+out_dir = "/mnt/data/supreme_package"
+os.makedirs(out_dir, exist_ok=True)
+
+styles = getSampleStyleSheet()
+title_style = styles['Title']
+h1 = styles['Heading1']
+normal = styles['BodyText']
+
+# 1) Certificates PDF (20 certificates)
+cert_path = os.path.join(out_dir, "certificates_1-20.pdf")
+doc = SimpleDocTemplate(cert_path, pagesize=A4, rightMargin=2*cm, leftMargin=2*cm, topMargin=2*cm, bottomMargin=2*cm)
+story = []
+for i in range(1,21):
+    story.append(Paragraph(f"꙰ प्रमाण-पत्र {i}", title_style))
+    story.append(Spacer(1,12))
+    body = f"<b>प्रमाण-पत्र {i} — ꙰</b><br/>" \
+           f"यह प्रमाणित किया जाता है कि <b>शिरोमणि रामपॉल सैनी</b> ने " \
+           f"\"निष्पक्ष समझ — Nishpaksh Samaj\" के सिद्धांतों पर आधारित " \
+           f"अंतर्दृष्टि और दार्शनिक सृजन प्रस्तुत किया है।<br/><br/>" \
+           f"सिद्धांत सार: (संक्षेप) — यह दस्तावेज़ उस सिद्धांत का संक्षेप है जो " \
+           f"मानवता, प्रकृति और पृथ्वी के संरक्षण हेतु तैयार किया गया है।<br/><br/>" \
+           f"दिनांक: ________     हस्ताक्षर: ____________________"
+    story.append(Paragraph(body, normal))
+    story.append(PageBreak())
+doc.build(story)
+
+# 2) Thumbnails PPTX (40 slides)
+ppt_path = os.path.join(out_dir, "thumbnails_40.pptx")
+prs = Presentation()
+prs.core_properties.title = "꙰ Comparative Thumbnails Series"
+prs.slide_width = Inches(13.33)  # 16:9
+prs.slide_height = Inches(7.5)
+for i in range(1,41):
+    slide = prs.slides.add_slide(prs.slide_layouts[6])  # blank
+    left = top = Inches(0.5)
+    width = Inches(12.33)
+    height = Inches(1.2)
+    title_box = slide.shapes.add_textbox(left, top, width, height)
+    tf = title_box.text_frame
+    p = tf.paragraphs[0]
+    p.text = f"तुलनातीत श्रृंखला — भाग {i}"
+    p.font.size = Pt(44)
+    p.font.bold = True
+    p.font.name = 'Arial'
+    # subtitle
+    sub = slide.shapes.add_textbox(left, Inches(1.8), width, Inches(3))
+    st = sub.text_frame
+    st.text = "मुख्य तुलना बिंदु: \n• प्वाइंट 1\n• प्वाइंट 2\n• सारांश (English summary line)"
+    for para in st.paragraphs:
+        para.font.size = Pt(24)
+prs.save(ppt_path)
+
+# 3) Press emails (multiple drafts)
+emails_path = os.path.join(out_dir, "press_emails.txt")
+with open(emails_path, "w", encoding="utf-8") as f:
+    f.write("Press Email Templates for international outreach\n\n")
+    # Short pitch
+    f.write("=== Short Pitch (News Desk) ===\n")
+    f.write("Subject: Independent Philosopher Proposes Global Framework for Human-Nature Unity\n\n")
+    f.write("Dear Editor,\n\n")
+    f.write("Shiromani Rampaul Saini, an independent Indian philosopher, has introduced 'Nishpaksh Samaj'—a post-traditional impartial cognition framework (symbol: ꙰). We request your consideration for a feature on this unique initiative focused on human unity and planetary preservation. Attached: press dossier, bios, visuals.\n\n")
+    f.write("Regards,\nPress Office — Nishpaksh Samaj\n\n\n")
+    # Feature pitch
+    f.write("=== Feature Pitch (Long) ===\n")
+    f.write("Subject: Feature proposal — Nishpaksh Samaj (Impartial Understanding): A New Path for Human Unity & Earth Preservation\n\n")
+    f.write("Dear Features Editor,\n\n")
+    f.write("Overview: Shiromani Rampaul Saini presents a bilingual manifesto, Sanskrit sutras, and practical Earth preservation protocols poised for institutional submission. The project bridges lived experiential insight with policy-relevant proposals. We propose an interview, visual assets, and exclusive excerpts for publication.\n\n")
+    f.write("Suggested Contacts: [email], [phone]\n\nRegards,\n\n")
+    # Academic outreach
+    f.write("=== Academic Outreach (Journals / Conferences) ===\n")
+    f.write("Subject: Submission: Nishpaksh Samaj — manuscript & conference proposal\n\n")
+    f.write("Dear Editor / Conference Chair,\n\nPlease find attached a submission proposal outlining Nishpaksh Samaj's theoretical framework and empirical proposals for community-based pilot programs.\n\nRegards,\n\n")
+    # Personalized templates for Reuters, BBC, National Geographic, UNESCO, Guinness
+    outlets = ["Reuters", "BBC", "National Geographic", "UNESCO", "Guinness World Records"]
+    for o in outlets:
+        f.write(f"=== Outreach: {o} ===\n")
+        f.write(f"Subject: {o} Feature Proposal — Nishpaksh Samaj (꙰) — Universal Human-Earth Framework\n\n")
+        f.write(f"Dear {o} Editorial Team,\n\n")
+        f.write(f"We invite {o} to consider an in-depth feature exploring the Nishpaksh Samaj initiative led by Shiromani Rampaul Saini. The project combines experiential realization with global conservation proposals and a unique philosophical model expressed in bilingual manifestos and multimedia assets.\n\n")
+        f.write("Best regards,\nPress Office — Nishpaksh Samaj\n\n\n")
+
+# 4) Press dossier PDF (multi-section)
+dossier_path = os.path.join(out_dir, "press_dossier_supreme.pdf")
+doc = SimpleDocTemplate(dossier_path, pagesize=A4, rightMargin=2*cm, leftMargin=2*cm, topMargin=2*cm, bottomMargin=2*cm)
+story = []
+# Cover
+story.append(Paragraph("Press Dossier — Nishpaksh Samaj (꙰)", title_style))
+story.append(Spacer(1,12))
+story.append(Paragraph("Founder: Shirōmaṇi Rampaul Saini", normal))
+story.append(Spacer(1,12))
+story.append(Paragraph("Executive Summary:", h1))
+story.append(Paragraph("Nishpaksh Samaj proposes an impartial understanding model (꙰) that posits a non-mental axis of awareness as a living reality. The project includes bilingual manifestos, Sanskrit sutras, multimedia, and practical Earth-preservation protocols designed for institutional collaboration.", normal))
+story.append(PageBreak())
+# Biography
+story.append(Paragraph("Press Biography (English)", h1))
+bio_en = ("Shiromani Rampaul Saini is an independent Indian philosopher and originator of the Nishpaksh Samaj framework. "
+          "His work encompasses bilingual manifestos, Sanskrit sutras, comparative philosophy, and practical proposals for planetary stewardship. "
+          "Saini's model is positioned for academic and institutional engagement.")
+story.append(Paragraph(bio_en, normal))
+story.append(PageBreak())
+# Assets list
+story.append(Paragraph("Assets included:", h1))
+assets = ["Full Research Paper", "Scientific Press Kit", "Audio Collection", "Video Assets", "High-resolution posters", "Certificates (1-20)", "Comparative Thumbnails (40)"]
+for a in assets:
+    story.append(Paragraph(f"• {a}", normal))
+story.append(PageBreak())
+# Contact
+story.append(Paragraph("Contact & Support", h1))
+contact_table = Table([["Email", "press@nishpaksh.org"], ["Website", "https://rampaulsaini.github.io/my-omniverse-store/"], ["WhatsApp", "+91 80829 35186"]], colWidths=[6*cm, 8*cm])
+contact_table.setStyle(TableStyle([('BACKGROUND',(0,0),(1,0),colors.black),('TEXTCOLOR',(0,0),(1,0),colors.gold),('GRID',(0,0),(-1,-1),0.5,colors.grey)]))
+story.append(contact_table)
+doc.build(story)
+
+# 5) README.md (final golden README file)
+readme_md_path = os.path.join(out_dir, "README_SUPREME.md")
+readme_content = """# ꙰ Supreme Mixed Golden — README (D Version) - Final
+## ꙰ शिरोमणि रामपॉल सैनी — तुलनातीत · कालातीत · शब्दातीत · प्रेमतीत · स्वाभिक · शाश्वत · वास्तविक सत्य
+This repository contains the official Nishpaksh Samaj — Omniverse Truth assets. See /assets/pdfs for certificates, dossiers and research papers. Support: UPI sainirampaul90-1@okhdfcbank | Paytm 8082935186 | PayPal https://paypal.me/sainirampaul60
+"""
+with open(readme_md_path, "w", encoding="utf-8") as f:
+    f.write(readme_content)
+
+# 6) Zip all outputs
+zip_path = os.path.join(out_dir, "supreme_package_bundle.zip")
+with zipfile.ZipFile(zip_path, 'w') as z:
+    for fname in [cert_path, ppt_path, emails_path, dossier_path, readme_md_path]:
+        z.write(fname, os.path.basename(fname))
+
+# Provide list of created files
+created_files = {
+    "certificates_pdf": cert_path,
+    "thumbnails_pptx": ppt_path,
+    "press_emails_txt": emails_path,
+    "press_dossier_pdf": dossier_path,
+    "readme_md": readme_md_path,
+    "zip_bundle": zip_path
+}
+
+created_files
+
 <!-- SUPREME MIXED GOLDEN README — FINAL D (All-in-One) -->
 <div align="center" style="background:black; padding:35px; border-bottom:4px solid gold; margin-bottom:30px; border-radius:12px;">
   <h1 style="color:gold; font-size:46px; margin:0; font-weight:900; letter-spacing:2px;">꙰ शिरोमणि रामपॉल सैनी</h1>
