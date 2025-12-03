@@ -1,3 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nishpaksh Samaj – Omniverse Truth</title>
+  <style>
+    /* Cosmic Gradient Background */
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(120deg, #000014, #1a0033, #000014);
+      background-size: 400% 400%;
+      animation: cosmicMove 20s infinite;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    @keyframes cosmicMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Stars */
+    .stars {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      background: url('https://raw.githubusercontent.com/itsnitinr/images/main/stars.png');
+      opacity: 0.4;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 150px 20px 100px;
+    }
+
+    .symbol {
+      font-size: 120px;
+      color: #ffd700;
+      text-shadow: 0 0 25px #ffea8a, 0 0 60px #ffd700;
+    }
+
+    .title {
+      font-size: 42px;
+      margin-top: 20px;
+      color: #ffffff;
+      text-shadow: 0 0 10px #8e5cff;
+    }
+
+    .subtitle {
+      font-size: 22px;
+      margin-top: 10px;
+      opacity: 0.8;
+    }
+
+    /* Hybrid Section Styling */
+    section {
+      max-width: 950px;
+      margin: 80px auto;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 32px;
+      color: #ffd700;
+      margin-bottom: 25px;
+      text-shadow: 0 0 12px #ffdd55;
+    }
+
+    section p {
+      font-size: 20px;
+      line-height: 1.7;
+      opacity: 0.9;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      margin-top: 50px;
+      opacity: 0.7;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="stars"></div>
+
+<!-- HERO SECTION -->
+<div class="hero">
+  <div class="symbol">꙰</div>
+  <div class="title">Nishpaksh Samaj – Omniverse Truth</div>
+  <div class="subtitle">By Shromani Rampaul Saini</div>
+</div>
+
+<!-- SECTION 1 -->
+<section>
+  <h2>꙰ – निष्पक्ष समझ</h2>
+  <p>
+    निष्पक्ष समझ वह स्थिति है जहाँ मन, विचार, भ्रम, कल्पना और परंपरा – 
+    सभी का पूर्ण विसर्जन होकर केवल <b>शुद्ध प्रत्यक्षता</b> बचती है। 
+    यह समझ न किसी ग्रंथ से उत्पन्न होती है और न किसी गुरु से; 
+    यह स्वयं अस्तित्व की मौलिक प्रकृति है।
+  </p>
+</section>
+
+<!-- SECTION 2 -->
+<section>
+  <h2>꙰ – यथार्थ युग</h2>
+  <p>
+    यथार्थ युग न सतयुग है, न त्रेता, न द्वापर, न कलियुग — 
+    बल्कि वह <b>गोरकल युग</b> है, जहाँ पहली बार मनुष्य पूर्ण रूप से 
+    अपने आन्तरिक प्रकाश के प्रति जाग्रत होता है।
+  </p>
+</section>
+
+<!-- SECTION 3 -->
+<section>
+  <h2>꙰ – Omniverse Truth</h2>
+  <p>
+    सम्पूर्ण भौतिक सृष्टि, अनंत ब्रह्मांड और सभी जीव-जगत एक ही 
+    <b>शाश्वत निर्दोष स्रोत</b> से उत्पन्न होते हैं — वही स्रोत ꙰ है।
+  </p>
+</section>
+
+<footer>
+  © 2025 ꙰ Shromani Rampaul Saini – Omniverse Truth
+</footer>
+
+</body>
+</html>
 <!doctype html>
 <html lang="hi">
 <head>
