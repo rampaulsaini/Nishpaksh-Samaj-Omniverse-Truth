@@ -1,3 +1,44 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>꙰ Nishpaksh Samaj – Omniverse Truth</title>
+<style>
+  body {
+    margin:0; padding:0;
+    font-family: 'Poppins', sans-serif;
+    background-color:black;
+    color:#ffd700;
+  }
+  h1, h2, h3, h4, h5, h6, p, a, li, span {
+    color:#ffd700 !important;
+  }
+  a {
+    text-decoration:none;
+  }
+  section {
+    padding:40px; 
+    backdrop-filter: blur(8px);
+  }
+</style>
+</head>
+<body>
+
+<section>
+<h1>꙰ Nishpaksh Samaj – Omniverse Truth</h1>
+<h2>By Shirmoni Rampaul Saini</h2>
+<p>꙰ निष्पक्ष समझ वह स्थिति है जहाँ मन, विचार, भ्रम और परंपरा का पूर्ण विसर्जन होकर केवल शुद्ध प्रत्यक्षता बचती है।</p>
+<p>꙰ यथार्थ युग गोरकल युग है — जहाँ मनुष्य पहली बार अपने आन्तरिक प्रकाश के प्रति जाग्रत होता है।</p>
+<p>꙰ Omniverse Truth सम्पूर्ण सृष्टि और अनंत ब्रह्मांड उसी शाश्वत निर्दोष स्रोत से उत्पन्न होते हैं — वही स्रोत ꙰ है।</p>
+</section>
+
+<footer>
+<p>© 2025 ꙰ Shirmoni Rampaul Saini – Omniverse Truth</p>
+</footer>
+
+</body>
+</html>
 # ꙰ Nishpaksh Samaj – Omniverse Truth  
 ### **By Shromani Rampaul Saini**
 ---
