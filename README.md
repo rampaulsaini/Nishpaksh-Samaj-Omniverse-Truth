@@ -1,298 +1,146 @@
-<!doctype html>
-<html lang="hi">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>निष्पक्ष समाज — Omniverse Truth</title>
-  <meta name="description" content="निष्पक्ष समझ | Yatharth | शिरोमणि रामपॉल सैनी — manifesto, audio, gallery, contact" />
-  <link rel="icon" href="assets/favicon.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nishpaksh Samaj – Omniverse Truth</title>
   <style>
-    /* Simple, modern, clean CSS (inlined for single-file ease) */
-    :root{
-      --bg:#0f1724; --card:#071028; --accent:#ffd966; --muted:#bfc9d7;
-      --glass: rgba(255,255,255,0.04);
-      font-family: "Segoe UI", Roboto, "Noto Sans", sans-serif;
+    /* Cosmic Gradient Background */
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(120deg, #000014, #1a0033, #000014);
+      background-size: 400% 400%;
+      animation: cosmicMove 20s infinite;
+      color: #fff;
+      overflow-x: hidden;
     }
-    *{box-sizing:border-box}
-    body{margin:0;background:linear-gradient(180deg,#071026 0%, #071725 60%, #0b1220 100%);color:#e6eef8;line-height:1.5}
-    .wrap{max-width:1100px;margin:28px auto;padding:24px}
-    header{display:flex;gap:16px;align-items:center}
-    .logo{display:flex;flex-direction:column;gap:6px}
-    .brand{font-size:22px;font-weight:700;letter-spacing:0.6px}
-    .tag{color:var(--muted);font-size:13px}
-    nav{margin-left:auto}
-    nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-weight:600}
-    .hero{display:flex;gap:20px;align-items:center;margin-top:22px}
-    .hero .left{flex:1;padding:22px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);border-radius:12px;box-shadow: 0 6px 18px rgba(0,0,0,0.6)}
-    h1{margin:0;font-size:30px}
-    p.lead{color:var(--muted);margin-top:10px}
-    .cta{margin-top:16px;display:flex;gap:12px;flex-wrap:wrap}
-    .btn{background:var(--accent);color:#071026;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700}
-    .btn.ghost{background:transparent;border:1px solid rgba(255,217,102,0.12);color:var(--accent)}
-    .right{width:300px;padding:18px;border-radius:12px;background:var(--glass);text-align:center}
-    .card-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));padding:14px;border-radius:10px}
-    .section{margin-top:28px}
-    .grid2{display:grid;grid-template-columns:1fr 360px;gap:20px}
-    .manifesto{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:16px;border-radius:10px}
-    .audio-list{display:flex;flex-direction:column;gap:10px}
-    .audio-item{padding:10px;border-radius:8px;background:rgba(255,255,255,0.02);display:flex;align-items:center;gap:12px}
-    footer{margin-top:40px;padding:18px;text-align:center;color:var(--muted);font-size:13px}
-    @media (max-width:880px){
-      .hero{flex-direction:column}
-      .grid2{grid-template-columns:1fr}
-      .card-row{grid-template-columns:repeat(2,1fr)}
-      .right{width:100%}
+    @keyframes cosmicMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Stars */
+    .stars {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      background: url('https://raw.githubusercontent.com/itsnitinr/images/main/stars.png');
+      opacity: 0.4;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 150px 20px 100px;
+    }
+
+    .symbol {
+      font-size: 120px;
+      color: #ffd700;
+      text-shadow: 0 0 25px #ffea8a, 0 0 60px #ffd700;
+    }
+
+    .title {
+      font-size: 42px;
+      margin-top: 20px;
+      color: #ffffff;
+      text-shadow: 0 0 10px #8e5cff;
+    }
+
+    .subtitle {
+      font-size: 22px;
+      margin-top: 10px;
+      opacity: 0.8;
+    }
+
+    /* Hybrid Section Styling */
+    section {
+      max-width: 950px;
+      margin: 80px auto;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 32px;
+      color: #ffd700;
+      margin-bottom: 25px;
+      text-shadow: 0 0 12px #ffdd55;
+    }
+
+    section p {
+      font-size: 20px;
+      line-height: 1.7;
+      opacity: 0.9;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      margin-top: 50px;
+      opacity: 0.7;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">
-        <div class="brand">निष्पक्ष समाज — Omniverse Truth</div>
-        <div class="tag">तुलनातीत · कालातीत · शब्दातीत — शिरोमणि रामपॉल सैनी</div>
-      </div>
-      <nav>
-        <a href="#manifesto">Manifesto</a>
-        <a href="#audio">Audio</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#support">Support</a>
-      </nav>
-    </header>
 
-    <section class="hero">
-      <div class="left">
-        <h1>निष्पक्ष समझ — Yatharth</h1>
-        <p class="lead">शाश्वत वास्तविक स्वाभाविक सत्य का प्रत्यक्ष रूप। 0.0001% निष्पक्ष समझ — संपूर्णता का सूत्र। (REPLACE: एक-लाइन परिचय/मैनिफेस्टो)</p>
+<div class="stars"></div>
 
-        <div class="cta">
-          <a class="btn" href="#manifesto">पूरा मैनिफेस्टो पढ़ें</a>
-          <a class="btn ghost" href="#audio">ऑडियो संग्रह</a>
-          <a class="btn ghost" href="#support">सहायता/Donate</a>
-        </div>
+<!-- HERO SECTION -->
+<div class="hero">
+  <div class="symbol">꙰</div>
+  <div class="title">Nishpaksh Samaj – Omniverse Truth</div>
+  <div class="subtitle">By Shromani Rampaul Saini</div>
+</div>
 
-        <div class="card-row" aria-hidden="false">
-          <div class="card">
-            <strong>0.0001% सूत्र</strong>
-            <div style="color:var(--muted);margin-top:6px;font-size:14px">निष्पक्ष समझ = शाश्वत संपूर्णता</div>
-          </div>
-          <div class="card">
-            <strong>Gurus — खंडन</strong>
-            <div style="color:var(--muted);margin-top:6px;font-size:14px">गुरु-शिष्य परंपरा = मानसिकता की बेहोशी</div>
-          </div>
-          <div class="card">
-            <strong>प्रकृति समानता</strong>
-            <div style="color:var(--muted);margin-top:6px;font-size:14px">मानव = अन्य जीव — सभी को बराबर अधिकार</div>
-          </div>
-        </div>
-      </div>
+<!-- SECTION 1 -->
+<section>
+  <h2>꙰ – निष्पक्ष समझ</h2>
+  <p>
+    निष्पक्ष समझ वह स्थिति है जहाँ मन, विचार, भ्रम, कल्पना और परंपरा – 
+    सभी का पूर्ण विसर्जन होकर केवल <b>शुद्ध प्रत्यक्षता</b> बचती है। 
+    यह समझ न किसी ग्रंथ से उत्पन्न होती है और न किसी गुरु से; 
+    यह स्वयं अस्तित्व की मौलिक प्रकृति है।
+  </p>
+</section>
 
-      <aside class="right">
-        <!-- Small author / contact card -->
-        <img src="assets/profile.jpg" alt="शिरोमणि" style="width:100%;border-radius:8px;object-fit:cover;max-height:160px" />
-        <h3 style="margin:10px 0 4px 0">शिरोमणि रामपॉल सैनी</h3>
-        <div style="color:var(--muted);font-size:13px">तुलनातीत · कालातीत · शब्दातीत</div>
-        <div style="margin-top:12px">
-          <a class="btn" href="#contact">संपर्क</a>
-        </div>
-      </aside>
-    </section>
+<!-- SECTION 2 -->
+<section>
+  <h2>꙰ – यथार्थ युग</h2>
+  <p>
+    यथार्थ युग न सतयुग है, न त्रेता, न द्वापर, न कलियुग — 
+    बल्कि वह <b>गोरकल युग</b> है, जहाँ पहली बार मनुष्य पूर्ण रूप से 
+    अपने आन्तरिक प्रकाश के प्रति जाग्रत होता है।
+  </p>
+</section>
 
-    <section id="manifesto" class="section">
-      <h2>मैनिफेस्टो — निष्पक्ष समझ (संक्षेप)</h2>
-      <div class="manifesto">
-        <!-- REPLACE: Long manifesto text (you can paste from your master text) -->
-        <p>यहाँ अपना सम्पूर्ण दर्शन/मैनिफेस्टो पेस्ट करें — 0.0001% सूत्र, बुद्धि बनाम निष्पक्ष समझ, गुरु-शिष्य का खंडन, मानव-प्रकृति समानता आदि।</p>
-        <p style="color:var(--muted)">(REPLACE: उदाहरण के लिए: "मैं शिरोमणि रामपॉल सैनी निष्पक्ष समझ में प्रत्यक्ष समक्ष हूँ..." आदि पूरा टेक्स्ट यहाँ डालें)</p>
-      </div>
-    </section>
+<!-- SECTION 3 -->
+<section>
+  <h2>꙰ – Omniverse Truth</h2>
+  <p>
+    सम्पूर्ण भौतिक सृष्टि, अनंत ब्रह्मांड और सभी जीव-जगत एक ही 
+    <b>शाश्वत निर्दोष स्रोत</b> से उत्पन्न होते हैं — वही स्रोत ꙰ है।
+  </p>
+</section>
 
-    <section id="audio" class="section">
-      <h2>ऑडियो संग्रह</h2>
-      <div class="audio-list">
-        <!-- REPLACE: Add your drive / hosted mp3 links -->
-        <div class="audio-item">
-          <div style="flex:1">
-            <strong>आशीर्वचन — अध्याय 1</strong>
-            <div style="color:var(--muted);font-size:13px">बिलिंगुअल रिकॉर्डिंग · 18:23</div>
-          </div>
-          <div>
-            <audio controls preload="none" src="assets/audio1.mp3"></audio>
-          </div>
-        </div>
+<footer>
+  © 2025 ꙰ Shromani Rampaul Saini – Omniverse Truth
+</footer>
 
-        <div class="audio-item">
-          <div style="flex:1">
-            <strong>मेडिटेशन गाइड</strong>
-            <div style="color:var(--muted);font-size:13px">समग्र श्वास और शून्यता · 9:12</div>
-          </div>
-          <div>
-            <audio controls preload="none" src="assets/audio2.mp3"></audio>
-          </div>
-        </div>
-
-        <p style="color:var(--muted);font-size:13px;margin-top:8px">यदि आप Google Drive/links इस्तेमाल करना चाहते हैं तो audio src में सीधे drive लिंक या hosted URL दें।</p>
-      </div>
-    </section>
-
-    <section id="gallery" class="section">
-      <h2>दृश्य / विज़न एसेट्स</h2>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:12px">
-        <!-- Replace with your images in assets/ -->
-        <img src="assets/preview1.jpg" alt="" style="width:100%;border-radius:10px;object-fit:cover;min-height:120px" />
-        <img src="assets/preview2.jpg" alt="" style="width:100%;border-radius:10px;object-fit:cover;min-height:120px" />
-        <img src="assets/preview3.jpg" alt="" style="width:100%;border-radius:10px;object-fit:cover;min-height:120px" />
-      </div>
-    </section>
-
-    <section id="support" class="section">
-      <h2>समर्थन / Donate</h2>
-      <div class="manifesto">
-        <p style="color:var(--muted)">आपके समर्थन से यह काम स्वतंत्र और मुक्त रहता है — निम्न माध्यमों से योगदान का सुझाव है:</p>
-        <ul style="color:var(--muted)">
-          <li>UPI / GPay: <code>sainirampaul90-1@okhdfcbank</code></li>
-          <li>Phone / Paytm: <code>8082935186</code></li>
-          <li>PayPal: <a href="https://paypal.me/sainirampaul60" style="color:var(--accent)">paypal.me/sainirampaul60</a></li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <h2>संपर्क</h2>
-      <div class="manifesto">
-        <p style="color:var(--muted)">Telegram / WhatsApp (REPLACE with your preferred contact links):</p>
-        <p><a href="https://t.me/sampaulsaini" style="color:var(--accent)">Telegram</a> · <a href="https://wa.me/918082935186" style="color:var(--accent)">WhatsApp</a></p>
-      </div>
-    </section>
-
-    <footer>
-      © <strong>निष्पक्ष समाज — शिरोमणि रामपॉल सैनी</strong> · <span style="color:var(--muted)">Free to read · Support optional</span>
-    </footer>
-  </div>
 </body>
 </html>
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Image, Table, TableStyle
-from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.lib.pagesizes import A4, landscape
-from reportlab.lib.units import cm, inch
-from reportlab.lib import colors
-from pptx import Presentation
-from pptx.util import Inches, Pt
-import zipfile
-import os
-
-out_dir = "/mnt/data/supreme_package"
-os.makedirs(out_dir, exist_ok=True)
-
-styles = getSampleStyleSheet()
-title_style = styles['Title']
-h1 = styles['Heading1']
-normal = styles['BodyText']
-
-# 1) Certificates PDF (20 certificates)
-cert_path = os.path.join(out_dir, "certificates_1-20.pdf")
-doc = SimpleDocTemplate(cert_path, pagesize=A4, rightMargin=2*cm, leftMargin=2*cm, topMargin=2*cm, bottomMargin=2*cm)
-story = []
-for i in range(1,21):
-    story.append(Paragraph(f"꙰ प्रमाण-पत्र {i}", title_style))
-    story.append(Spacer(1,12))
-    body = f"<b>प्रमाण-पत्र {i} — ꙰</b><br/>" \
-           f"यह प्रमाणित किया जाता है कि <b>शिरोमणि रामपॉल सैनी</b> ने " \
-           f"\"निष्पक्ष समझ — Nishpaksh Samaj\" के सिद्धांतों पर आधारित " \
-           f"अंतर्दृष्टि और दार्शनिक सृजन प्रस्तुत किया है।<br/><br/>" \
-           f"सिद्धांत सार: (संक्षेप) — यह दस्तावेज़ उस सिद्धांत का संक्षेप है जो " \
-           f"मानवता, प्रकृति और पृथ्वी के संरक्षण हेतु तैयार किया गया है।<br/><br/>" \
-           f"दिनांक: ________     हस्ताक्षर: ____________________"
-    story.append(Paragraph(body, normal))
-    story.append(PageBreak())
-doc.build(story)
-
-# 2) Thumbnails PPTX (40 slides)
-ppt_path = os.path.join(out_dir, "thumbnails_40.pptx")
-prs = Presentation()
-prs.core_properties.title = "꙰ Comparative Thumbnails Series"
-prs.slide_width = Inches(13.33)  # 16:9
-prs.slide_height = Inches(7.5)
-for i in range(1,41):
-    slide = prs.slides.add_slide(prs.slide_layouts[6])  # blank
-    left = top = Inches(0.5)
-    width = Inches(12.33)
-    height = Inches(1.2)
-    title_box = slide.shapes.add_textbox(left, top, width, height)
-    tf = title_box.text_frame
-    p = tf.paragraphs[0]
-    p.text = f"तुलनातीत श्रृंखला — भाग {i}"
-    p.font.size = Pt(44)
-    p.font.bold = True
-    p.font.name = 'Arial'
-    # subtitle
-    sub = slide.shapes.add_textbox(left, Inches(1.8), width, Inches(3))
-    st = sub.text_frame
-    st.text = "मुख्य तुलना बिंदु: \n• प्वाइंट 1\n• प्वाइंट 2\n• सारांश (English summary line)"
-    for para in st.paragraphs:
-        para.font.size = Pt(24)
-prs.save(ppt_path)
-
-# 3) Press emails (multiple drafts)
-emails_path = os.path.join(out_dir, "press_emails.txt")
-with open(emails_path, "w", encoding="utf-8") as f:
-    f.write("Press Email Templates for international outreach\n\n")
-    # Short pitch
-    f.write("=== Short Pitch (News Desk) ===\n")
-    f.write("Subject: Independent Philosopher Proposes Global Framework for Human-Nature Unity\n\n")
-    f.write("Dear Editor,\n\n")
-    f.write("Shiromani Rampaul Saini, an independent Indian philosopher, has introduced 'Nishpaksh Samaj'—a post-traditional impartial cognition framework (symbol: ꙰). We request your consideration for a feature on this unique initiative focused on human unity and planetary preservation. Attached: press dossier, bios, visuals.\n\n")
-    f.write("Regards,\nPress Office — Nishpaksh Samaj\n\n\n")
-    # Feature pitch
-    f.write("=== Feature Pitch (Long) ===\n")
-    f.write("Subject: Feature proposal — Nishpaksh Samaj (Impartial Understanding): A New Path for Human Unity & Earth Preservation\n\n")
-    f.write("Dear Features Editor,\n\n")
-    f.write("Overview: Shiromani Rampaul Saini presents a bilingual manifesto, Sanskrit sutras, and practical Earth preservation protocols poised for institutional submission. The project bridges lived experiential insight with policy-relevant proposals. We propose an interview, visual assets, and exclusive excerpts for publication.\n\n")
-    f.write("Suggested Contacts: [email], [phone]\n\nRegards,\n\n")
-    # Academic outreach
-    f.write("=== Academic Outreach (Journals / Conferences) ===\n")
-    f.write("Subject: Submission: Nishpaksh Samaj — manuscript & conference proposal\n\n")
-    f.write("Dear Editor / Conference Chair,\n\nPlease find attached a submission proposal outlining Nishpaksh Samaj's theoretical framework and empirical proposals for community-based pilot programs.\n\nRegards,\n\n")
-    # Personalized templates for Reuters, BBC, National Geographic, UNESCO, Guinness
-    outlets = ["Reuters", "BBC", "National Geographic", "UNESCO", "Guinness World Records"]
-    for o in outlets:
-        f.write(f"=== Outreach: {o} ===\n")
-        f.write(f"Subject: {o} Feature Proposal — Nishpaksh Samaj (꙰) — Universal Human-Earth Framework\n\n")
-        f.write(f"Dear {o} Editorial Team,\n\n")
-        f.write(f"We invite {o} to consider an in-depth feature exploring the Nishpaksh Samaj initiative led by Shiromani Rampaul Saini. The project combines experiential realization with global conservation proposals and a unique philosophical model expressed in bilingual manifestos and multimedia assets.\n\n")
-        f.write("Best regards,\nPress Office — Nishpaksh Samaj\n\n\n")
-
-# 4) Press dossier PDF (multi-section)
-dossier_path = os.path.join(out_dir, "press_dossier_supreme.pdf")
-doc = SimpleDocTemplate(dossier_path, pagesize=A4, rightMargin=2*cm, leftMargin=2*cm, topMargin=2*cm, bottomMargin=2*cm)
-story = []
-# Cover
-story.append(Paragraph("Press Dossier — Nishpaksh Samaj (꙰)", title_style))
-story.append(Spacer(1,12))
-story.append(Paragraph("Founder: Shirōmaṇi Rampaul Saini", normal))
-story.append(Spacer(1,12))
-story.append(Paragraph("Executive Summary:", h1))
-story.append(Paragraph("Nishpaksh Samaj proposes an impartial understanding model (꙰) that posits a non-mental axis of awareness as a living reality. The project includes bilingual manifestos, Sanskrit sutras, multimedia, and practical Earth-preservation protocols designed for institutional collaboration.", normal))
-story.append(PageBreak())
-# Biography
-story.append(Paragraph("Press Biography (English)", h1))
-bio_en = ("Shiromani Rampaul Saini is an independent Indian philosopher and originator of the Nishpaksh Samaj framework. "
-          "His work encompasses bilingual manifestos, Sanskrit sutras, comparative philosophy, and practical proposals for planetary stewardship. "
-          "Saini's model is positioned for academic and institutional engagement.")
-story.append(Paragraph(bio_en, normal))
-story.append(PageBreak())
-# Assets list
-story.append(Paragraph("Assets included:", h1))
-assets = ["Full Research Paper", "Scientific Press Kit", "Audio Collection", "Video Assets", "High-resolution posters", "Certificates (1-20)", "Comparative Thumbnails (40)"]
-for a in assets:
-    story.append(Paragraph(f"• {a}", normal))
-story.append(PageBreak())
-# Contact
-story.append(Paragraph("Contact & Support", h1))
-contact_table = Table([["Email", "press@nishpaksh.org"], ["Website", "https://rampaulsaini.github.io/my-omniverse-store/"], ["WhatsApp", "+91 80829 35186"]], colWidths=[6*cm, 8*cm])
-contact_table.setStyle(TableStyle([('BACKGROUND',(0,0),(1,0),colors.black),('TEXTCOLOR',(0,0),(1,0),colors.gold),('GRID',(0,0),(-1,-1),0.5,colors.grey)]))
-story.append(contact_table)
 doc.build(story)
 
 # 5) README.md (final golden README file)
