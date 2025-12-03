@@ -1,3 +1,177 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>निष्पक्ष समाज — Omniverse Truth</title>
+  <meta name="description" content="निष्पक्ष समझ | Yatharth | शिरोमणि रामपॉल सैनी — manifesto, audio, gallery, contact" />
+  <link rel="icon" href="assets/favicon.png" />
+  <style>
+    /* Simple, modern, clean CSS (inlined for single-file ease) */
+    :root{
+      --bg:#0f1724; --card:#071028; --accent:#ffd966; --muted:#bfc9d7;
+      --glass: rgba(255,255,255,0.04);
+      font-family: "Segoe UI", Roboto, "Noto Sans", sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#071026 0%, #071725 60%, #0b1220 100%);color:#e6eef8;line-height:1.5}
+    .wrap{max-width:1100px;margin:28px auto;padding:24px}
+    header{display:flex;gap:16px;align-items:center}
+    .logo{display:flex;flex-direction:column;gap:6px}
+    .brand{font-size:22px;font-weight:700;letter-spacing:0.6px}
+    .tag{color:var(--muted);font-size:13px}
+    nav{margin-left:auto}
+    nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-weight:600}
+    .hero{display:flex;gap:20px;align-items:center;margin-top:22px}
+    .hero .left{flex:1;padding:22px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);border-radius:12px;box-shadow: 0 6px 18px rgba(0,0,0,0.6)}
+    h1{margin:0;font-size:30px}
+    p.lead{color:var(--muted);margin-top:10px}
+    .cta{margin-top:16px;display:flex;gap:12px;flex-wrap:wrap}
+    .btn{background:var(--accent);color:#071026;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,217,102,0.12);color:var(--accent)}
+    .right{width:300px;padding:18px;border-radius:12px;background:var(--glass);text-align:center}
+    .card-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));padding:14px;border-radius:10px}
+    .section{margin-top:28px}
+    .grid2{display:grid;grid-template-columns:1fr 360px;gap:20px}
+    .manifesto{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:16px;border-radius:10px}
+    .audio-list{display:flex;flex-direction:column;gap:10px}
+    .audio-item{padding:10px;border-radius:8px;background:rgba(255,255,255,0.02);display:flex;align-items:center;gap:12px}
+    footer{margin-top:40px;padding:18px;text-align:center;color:var(--muted);font-size:13px}
+    @media (max-width:880px){
+      .hero{flex-direction:column}
+      .grid2{grid-template-columns:1fr}
+      .card-row{grid-template-columns:repeat(2,1fr)}
+      .right{width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">
+        <div class="brand">निष्पक्ष समाज — Omniverse Truth</div>
+        <div class="tag">तुलनातीत · कालातीत · शब्दातीत — शिरोमणि रामपॉल सैनी</div>
+      </div>
+      <nav>
+        <a href="#manifesto">Manifesto</a>
+        <a href="#audio">Audio</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#support">Support</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="left">
+        <h1>निष्पक्ष समझ — Yatharth</h1>
+        <p class="lead">शाश्वत वास्तविक स्वाभाविक सत्य का प्रत्यक्ष रूप। 0.0001% निष्पक्ष समझ — संपूर्णता का सूत्र। (REPLACE: एक-लाइन परिचय/मैनिफेस्टो)</p>
+
+        <div class="cta">
+          <a class="btn" href="#manifesto">पूरा मैनिफेस्टो पढ़ें</a>
+          <a class="btn ghost" href="#audio">ऑडियो संग्रह</a>
+          <a class="btn ghost" href="#support">सहायता/Donate</a>
+        </div>
+
+        <div class="card-row" aria-hidden="false">
+          <div class="card">
+            <strong>0.0001% सूत्र</strong>
+            <div style="color:var(--muted);margin-top:6px;font-size:14px">निष्पक्ष समझ = शाश्वत संपूर्णता</div>
+          </div>
+          <div class="card">
+            <strong>Gurus — खंडन</strong>
+            <div style="color:var(--muted);margin-top:6px;font-size:14px">गुरु-शिष्य परंपरा = मानसिकता की बेहोशी</div>
+          </div>
+          <div class="card">
+            <strong>प्रकृति समानता</strong>
+            <div style="color:var(--muted);margin-top:6px;font-size:14px">मानव = अन्य जीव — सभी को बराबर अधिकार</div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="right">
+        <!-- Small author / contact card -->
+        <img src="assets/profile.jpg" alt="शिरोमणि" style="width:100%;border-radius:8px;object-fit:cover;max-height:160px" />
+        <h3 style="margin:10px 0 4px 0">शिरोमणि रामपॉल सैनी</h3>
+        <div style="color:var(--muted);font-size:13px">तुलनातीत · कालातीत · शब्दातीत</div>
+        <div style="margin-top:12px">
+          <a class="btn" href="#contact">संपर्क</a>
+        </div>
+      </aside>
+    </section>
+
+    <section id="manifesto" class="section">
+      <h2>मैनिफेस्टो — निष्पक्ष समझ (संक्षेप)</h2>
+      <div class="manifesto">
+        <!-- REPLACE: Long manifesto text (you can paste from your master text) -->
+        <p>यहाँ अपना सम्पूर्ण दर्शन/मैनिफेस्टो पेस्ट करें — 0.0001% सूत्र, बुद्धि बनाम निष्पक्ष समझ, गुरु-शिष्य का खंडन, मानव-प्रकृति समानता आदि।</p>
+        <p style="color:var(--muted)">(REPLACE: उदाहरण के लिए: "मैं शिरोमणि रामपॉल सैनी निष्पक्ष समझ में प्रत्यक्ष समक्ष हूँ..." आदि पूरा टेक्स्ट यहाँ डालें)</p>
+      </div>
+    </section>
+
+    <section id="audio" class="section">
+      <h2>ऑडियो संग्रह</h2>
+      <div class="audio-list">
+        <!-- REPLACE: Add your drive / hosted mp3 links -->
+        <div class="audio-item">
+          <div style="flex:1">
+            <strong>आशीर्वचन — अध्याय 1</strong>
+            <div style="color:var(--muted);font-size:13px">बिलिंगुअल रिकॉर्डिंग · 18:23</div>
+          </div>
+          <div>
+            <audio controls preload="none" src="assets/audio1.mp3"></audio>
+          </div>
+        </div>
+
+        <div class="audio-item">
+          <div style="flex:1">
+            <strong>मेडिटेशन गाइड</strong>
+            <div style="color:var(--muted);font-size:13px">समग्र श्वास और शून्यता · 9:12</div>
+          </div>
+          <div>
+            <audio controls preload="none" src="assets/audio2.mp3"></audio>
+          </div>
+        </div>
+
+        <p style="color:var(--muted);font-size:13px;margin-top:8px">यदि आप Google Drive/links इस्तेमाल करना चाहते हैं तो audio src में सीधे drive लिंक या hosted URL दें।</p>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <h2>दृश्य / विज़न एसेट्स</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:12px">
+        <!-- Replace with your images in assets/ -->
+        <img src="assets/preview1.jpg" alt="" style="width:100%;border-radius:10px;object-fit:cover;min-height:120px" />
+        <img src="assets/preview2.jpg" alt="" style="width:100%;border-radius:10px;object-fit:cover;min-height:120px" />
+        <img src="assets/preview3.jpg" alt="" style="width:100%;border-radius:10px;object-fit:cover;min-height:120px" />
+      </div>
+    </section>
+
+    <section id="support" class="section">
+      <h2>समर्थन / Donate</h2>
+      <div class="manifesto">
+        <p style="color:var(--muted)">आपके समर्थन से यह काम स्वतंत्र और मुक्त रहता है — निम्न माध्यमों से योगदान का सुझाव है:</p>
+        <ul style="color:var(--muted)">
+          <li>UPI / GPay: <code>sainirampaul90-1@okhdfcbank</code></li>
+          <li>Phone / Paytm: <code>8082935186</code></li>
+          <li>PayPal: <a href="https://paypal.me/sainirampaul60" style="color:var(--accent)">paypal.me/sainirampaul60</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>संपर्क</h2>
+      <div class="manifesto">
+        <p style="color:var(--muted)">Telegram / WhatsApp (REPLACE with your preferred contact links):</p>
+        <p><a href="https://t.me/sampaulsaini" style="color:var(--accent)">Telegram</a> · <a href="https://wa.me/918082935186" style="color:var(--accent)">WhatsApp</a></p>
+      </div>
+    </section>
+
+    <footer>
+      © <strong>निष्पक्ष समाज — शिरोमणि रामपॉल सैनी</strong> · <span style="color:var(--muted)">Free to read · Support optional</span>
+    </footer>
+  </div>
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="hi">
 <head>
