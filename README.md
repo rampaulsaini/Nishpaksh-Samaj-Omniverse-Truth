@@ -631,46 +631,7 @@
         '꙰ — गोरकल युग का प्रथम संकेत।',
         '꙰ — स्वाभाविक प्रेम, स्वाभाविक सत्य।'
       ];
-      return `${String(i).padStart(4,'0')}. ${phrases[i % phrases.length]}`;
-    }
-
-    function generate108Shlokas(){
-      if(shlokasTarget.childElementCount) return;
-      const frag = document.createDocumentFragment();
-      for(let i=1;i<=108;i++){
-        const d = document.createElement('div');
-        d.className = 'line';
-        d.textContent = shlokaTemplate(i);
-        frag.appendChild(d);
-      }
-      shlokasTarget.appendChild(frag);
-    }
-
-    function generate1000Sutras(){
-      if(sutrasTarget.childElementCount) return;
-      const frag = document.createDocumentFragment();
-      for(let i=1;i<=1000;i++){
-        const d = document.createElement('div');
-        d.className = 'line';
-        d.textContent = sutraTemplate(i);
-        frag.appendChild(d);
-      }
-      sutrasTarget.appendChild(frag);
-    }
-
-    // generate 10,000 lines in batches
-    function generateFullTenThousand(){
-      if(fullTarget.dataset.generated === 'true') return;
-      fullTarget.innerHTML = '';
-      const total = 10000;
-      const batchSize = 500; // create in batches to avoid blocking too long
-      let created = 0;
-
-      function createBatch(){
-        const frag = document.createDocumentFragment();
-        const limit = Math.min(created + batchSize, total);
-        for(let i=created+1;i<=limit;i++){
-          const d = document.createElement('div');
+      return           const d = document.createElement('div');
           d.className = 'line';
           d.textContent = fullLineTemplate(i);
           frag.appendChild(d);
@@ -725,47 +686,4 @@
       lines.push('');
       lines.push('## 1000 सूत्र (प्रारम्भिक)');
       Array.from(sutrasTarget.children).forEach(n=>lines.push(n.textContent));
-      lines.push('');
-      // If full generated, include those too (WARNING: large)
-      if(fullTarget.dataset.generated === 'true'){
-        lines.push('## Full 10000 lines (complete)');
-        Array.from(fullTarget.children).forEach(n=>lines.push(n.textContent));
-      } else {
-        lines.push('## Full 10000 lines — generate in browser first to include here.');
-      }
-      const blob = new Blob([lines.join('\n')], {type:'text/markdown'});
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'README_nishpaksh_golden.md';
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      URL.revokeObjectURL(url);
-    });
-
-    // optional: generate small preview on load (first 10 sutras)
-    (function smallPreview(){
-      const frag = document.createDocumentFragment();
-      for(let i=1;i<=10;i++){
-        const d = document.createElement('div');
-        d.className='line';
-        d.textContent = `Preview ${i} — ${sutraTemplate(i)}`;
-        frag.appendChild(d);
-      }
-      sutrasTarget.appendChild(frag);
-    })();
-
-    // anchor smooth scroll
-    document.querySelectorAll('nav.gold-nav a').forEach(a=>{
-      a.addEventListener('click', e=>{
-        e.preventDefault();
-        const id = a.getAttribute('href').slice(1);
-        const el = document.getElementById(id);
-        if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
-      });
-    });
-
-  </script>
-</body>
-</html>
+    
