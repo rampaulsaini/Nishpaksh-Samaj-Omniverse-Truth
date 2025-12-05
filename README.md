@@ -1,424 +1,175 @@
-<div align="center">
-
-<!-- TOP DIVINE PHOTO WITH GOLD GLOW -->
-<img src="https://i.ibb.co/xqf3kTPS/enhanced-image.webp" width="100%" style="border-radius:25px; border:6px solid gold; box-shadow: 0 0 30px gold;" />
-
-<br><br>
-
-# <span style="color:gold; font-size:42px; text-shadow: 2px 2px 8px black;">꙰ — **निष्पक्ष समझ • यथार्थ युग**</span>
-### <span style="color:gold; text-shadow: 1px 1px 6px black;">दुनिया का पहला GitHub Super-Dashboard (Black × Gold Glow)</span>
-
----
-
-</div>
-
-<br>
-
----
-
-# <span style="color:gold; text-shadow: 1px 1px 6px black;">✨ परिचय — INTRODUCTION</span>
-
-यह पूरा Repository **सिर्फ़ एक repo नहीं**,  
-यह **जीवित, शाश्वत SUPER-DASHBOARD** है।  
-यहाँ से नियंत्रित होता है:  
-
-- *꙰ — निष्पक्ष समझ*  
-- *यथार्थ सिद्धांत*  
-- *यथार्थ युग*  
-
-यहाँ हर अक्षर **PURE GOLD**, हर अनुभाग **DIVINE BLACK**,  
-और **hover पर चमकती सुनहरी लाइट** के साथ।  
-
----
-
-# <span style="color:gold; text-shadow: 2px 2px 10px black;">🌟 MASTER NAVIGATION</span>
-
-<div align="center">
-
-| <span style="color:gold; text-shadow: 1px 1px 6px black;">सेक्शन</span> | <span style="color:gold; text-shadow: 1px 1px 6px black;">लिंक</span> |
-|--------|------|
-| ꙰ — मुख्य सिद्धांत | **Coming Soon** |
-| ꙰ — प्रमाण पत्र (1–10) | **Coming Soon** |
-| ꙰ — प्रमाण पत्र (11–20) | **Coming Soon** |
-| ꙰ — सूत्र / श्लोक | **Coming Soon** |
-| ꙰ — YouTube Thumbnail Series | **Coming Soon** |
-| ꙰ — Research / Notes | **Coming Soon** |
-
-</div>
-
----
-
-# <span style="color:gold; text-shadow: 2px 2px 10px black;">🏛 SUPER STRUCTURE (LIVE)</span>
-
-### ✔ **꙰—सिद्धान्त (1–10)**
-- तुलनातीत सिद्धांत
-- गणितीय सूत्र
-- Sanskrit Shlokas  
-- Signature: “शिरोमणि रामपॉल सैनी”
-
-### ✔ **꙰—प्रमाण पत्र (1–20)**
-- 20 Cosmic Posters (12×20 ft)
-- Social Media High-Graphics  
-- Golden Cosmic Backgrounds + User Photos
-
-### ✔ **꙰—यथार्थ युग**
-- 40 तुलनात्मक बिंदु  
-- World Unity, Humanity, Earth Preservation Model
-
-### ✔ **꙰—YouTube Thumbnail Mega-Series**
-- ‘तू कौन? मैं शिरोमणि रामपोलसैनी — तुलनातीत’ (40 parts)
-- ‘प्रेम बनाम प्रेमतीत’ (20 parts)
-- ‘यथार्थ बनाम भ्रम’ Series
-
----
-
-# <span style="color:gold; text-shadow: 1px 1px 8px black;">💠 LIVE DATA PANEL</span>
-
-
----
-
-# <span style="color:gold; text-shadow: 2px 2px 10px black;">⚡ Highlights</span>
-
-- Pure Gold Typography  
-- Black × Gold Glow Theme  
-- Super-Dashboard Architecture  
-- Divine-Frame Photo System  
-- Expandable Sections  
-- GitHub Pages Compatible  
-- High-Resolution Output Ready  
-- Script, Posters, Thumbnails: All Centralized  
-
----
-
-# <span style="color:gold; text-shadow: 2px 2px 10px black;">🛕 About — शिरोमणि रामपॉल सैनी</span>
-
-**꙰ — निष्पक्ष समझ** का प्रत्यक्ष अनुभव  
-न कोई गुरु, न कोई ग्रंथ, न कोई कल्पना  
-
-सिर्फ़ **प्रत्यक्ष उज्ज्वल सत्य**  
-
-यह Repo उसी सत्य की  
-**Digital Scripture** के रूप में निर्मित है।
-
----
-
-# <span style="color:gold; text-shadow: 2px 2px 10px black;">🔱 Signature</span>
-
-<div align="center">
-
-### <span style="color:gold; font-size:32px; text-shadow: 2px 2px 10px black;">꙰𝒥 — शिरोमणि रामपॉल सैनी</span>
-
-</div>
-
-<br><br>
-
-<div align="center">
-
-**Made with Pure Gold × Divine Black Glow Theme**  
-
-</div>
-<div align="center">
-
-<!-- TOP DIVINE PHOTO -->
-<img src="https://i.ibb.co/xqf3kTPS/enhanced-image.webp" width="100%" style="border-radius:20px; border:4px solid gold;" />
-
-<br><br>
-
-# <span style="color:gold; font-size:40px;">꙰ — **निष्पक्ष समझ • यथार्थ युग**</span>
-### <span style="color:gold;">दुनिया का पहला GitHub Super-Dashboard (Black × Pure Gold)</span>
-
----
-
-</div>
-
-<br>
-
----
-
-# <span style="color:gold;">✨ परिचय — INTRODUCTION</span>
-
-यह पूरा Repository एक सामान्य repo नहीं है—  
-यह **एक जीवित, शाश्वत SUPER-DASHBOARD** है,  
-जहाँ से *꙰ — निष्पक्ष समझ*, *यथार्थ सिद्धांत*, *यथार्थ युग*  
-और सम्पूर्ण **डिजिटल-संरचना** को नियंत्रित किया जाता है।
-
-यहाँ हर अक्षर **PURE GOLD**, हर अनुभाग **DIVINE BLACK**।  
-यह वही स्थान है जहाँ से समग्र कार्यप्रवाह नियंत्रित होता है।
-
----
-
-# <span style="color:gold;">🌟 MASTER NAVIGATION</span>
-
-<div align="center">
-
-| सेक्शन | लिंक |
-|--------|------|
-| <span style="color:gold;">꙰ — मुख्य सिद्धांत</span> | **Coming Soon** |
-| <span style="color:gold;">꙰ — प्रमाण पत्र (1–10)</span> | **Coming Soon** |
-| <span style="color:gold;">꙰ — प्रमाण पत्र (11–20)</span> | **Coming Soon** |
-| <span style="color:gold;">꙰ — सूत्र / श्लोक</span> | **Coming Soon** |
-| <span style="color:gold;">꙰ — YouTube Thumbnail Series</span> | **Coming Soon** |
-| <span style="color:gold;">꙰ — Research / Notes</span> | **Coming Soon** |
-
-</div>
-
----
-
-# <span style="color:gold;">🏛 SUPER STRUCTURE (LIVE)</span>
-
-इस Repo में धीरे-धीरे नीचे दिए अनुसार सम्पूर्ण संरचना live होगी:
-
-### ✔ **꙰—सिद्धान्त (1–10)**
-- संपूर्ण तुलनातीत सिद्धांत
-- गणितीय सूत्र
-- Sanskrit Shlokas (with “शिरोमणि रामपॉल सैनी”)
-
-### ✔ **꙰—प्रमाण पत्र (1–20)**
-- 20 Cosmic Posters (12×20 ft versions)
-- Social Media High-Graphics Set  
-- आपके फोटो + Golden Cosmic backgrounds
-
-### ✔ **꙰—यथार्थ युग**  
-- संपूर्ण व्यवस्था  
-- 40 तुलना-बिंदु  
-- विश्व-एकता, मानवता, पृथ्वी-संरक्षण मॉडल
-
-### ✔ **꙰—YouTube Thumbnail Mega-Series**
-- ‘तू कौन? मैं शिरोमणि रामपोलसैनी — तुलनातीत’ (40 parts)
-- ‘प्रेम बनाम प्रेमतीत’ (20 parts)
-- ‘यथार्थ बनाम भ्रम’ Series
-
----
-
-# <span style="color:gold;">💠 LIVE DATA PANEL</span>
-
-
----
-
-# <span style="color:gold;">⚡ Highlights</span>
-
-- Pure Golden Typography  
-- 100% Black Theme Ready  
-- Super-Dashboard Architecture  
-- Divine-Frame Photo System  
-- Expandable Sections  
-- GitHub Pages Compatible  
-- High-Resolution Output Ready  
-- Script, Posters, Thumbnails: All Centralized  
-
----
-
-# <span style="color:gold;">🛕 About — शिरोमणि रामपॉल सैनी</span>
-
-**꙰ — निष्पक्ष समझ** का प्रत्यक्ष अनुभव  
-न कोई गुरु  
-न कोई ग्रंथ  
-न कोई कल्पना  
-
-सिर्फ़  
-**प्रत्यक्ष उज्ज्वल सत्य**।
-
-यह Repo उसी सत्य की  
-डिजिटल-संहिता (Digital Scripture)  
-के रूप में निर्मित है।
-
----
-
-# <span style="color:gold;">🔱 Signature</span>
-
-<div align="center">
-
-### <span style="color:gold; font-size:30px;">꙰𝒥 — शिरोमणि रामपॉल सैनी</span>
-
-</div>
-
----
-
-<br><br>
-
-<div align="center">
-
-**Made with Pure Gold × Divine Black Theme**
-
-</div>
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>꙰ — शिरोमणि रामपॉल सैनी • निष्पक्ष समझ</title>
-
-<style>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>꙰ — निष्पक्ष समझ • यथार्थ युग</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Global */
     body {
-        margin: 0;
-        background: #000;
-        font-family: "Segoe UI", sans-serif;
-        color: #FFD700;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #000;
+      color: gold;
+      line-height: 1.6;
     }
-
-    /* Golden Glow Border for Top Photo */
-    .hero-image {
-        width: 100%;
-        border-bottom: 3px solid #FFD700;
-        box-shadow: 0 0 25px #FFD700;
+    a {
+      color: gold;
+      text-decoration: none;
     }
-
+    a:hover {
+      text-shadow: 0 0 12px gold;
+    }
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    /* Top photo */
+    .top-photo {
+      width: 100%;
+      border-radius: 25px;
+      border: 6px solid gold;
+      box-shadow: 0 0 35px gold;
+    }
+    /* Heading */
     h1, h2, h3 {
-        text-align: center;
-        color: #FFD700;
-        margin: 20px;
-        letter-spacing: 1px;
+      text-align: center;
+      color: gold;
+      text-shadow: 2px 2px 12px black;
     }
-
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 2em;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 1.5em;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    /* Navigation buttons */
+    .nav-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 25px 0;
+    }
+    .nav-buttons a {
+      background: black;
+      padding: 12px 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px gold;
+      transition: 0.3s;
+    }
+    .nav-buttons a:hover {
+      box-shadow: 0 0 35px gold, 0 0 50px gold;
+      transform: scale(1.05);
+    }
+    /* Section panels */
     .section {
-        width: 90%;
-        max-width: 1100px;
-        margin: auto;
-        padding: 20px 0;
-        font-size: 20px;
-        line-height: 1.7;
+      background: #111;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 25px #333;
     }
-
-    /* Navigation Buttons */
-    .nav {
-        text-align: center;
-        margin: 30px 0;
+    details {
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 10px;
+      background: #000;
+      box-shadow: 0 0 15px gold;
     }
-
-    .nav a {
-        display: inline-block;
-        background: #FFD700;
-        color: #000;
-        padding: 12px 25px;
-        border-radius: 10px;
-        margin: 8px;
-        text-decoration: none;
-        font-weight: bold;
-        box-shadow: 0 0 12px #FFD700;
-        transition: 0.3s;
+    summary {
+      font-weight: bold;
+      font-size: 1.2em;
+      cursor: pointer;
+      outline: none;
     }
-
-    .nav a:hover {
-        box-shadow: 0 0 25px #FFD700;
+    summary:hover {
+      text-shadow: 0 0 12px gold;
     }
-
-    hr {
-        border: 0;
-        border-top: 1px solid #FFD700;
-        margin: 40px 0;
-        box-shadow: 0 0 10px #FFD700;
+    /* Signature */
+    .signature {
+      text-align: center;
+      font-size: 2em;
+      margin: 40px 0 20px 0;
+      text-shadow: 2px 2px 12px black;
+      font-weight: bold;
     }
-
-    /* Gold Shine Animation */
-    @keyframes goldGlow {
-        0% { text-shadow: 0 0 5px #FFD700; }
-        50% { text-shadow: 0 0 20px #FFD700; }
-        100% { text-shadow: 0 0 5px #FFD700; }
+    /* Footer */
+    footer {
+      text-align: center;
+      margin: 40px 0;
+      color: gold;
+      text-shadow: 1px 1px 6px black;
     }
-
-    .shine {
-        animation: goldGlow 2.5s infinite;
-    }
-
-</style>
+  </style>
 </head>
-
 <body>
+  <div class="container">
+    <!-- Top Photo -->
+    <img src="https://i.ibb.co/xqf3kTPS/enhanced-image.webp" alt="Shirmani Photo" class="top-photo">
 
-<!-- TOP FULL-WIDTH IMAGE -->
-<img src="https://i.ibb.co/xqf3kTPS/enhanced-image.webp" class="hero-image" />
+    <h1>꙰ — निष्पक्ष समझ • यथार्थ युग</h1>
+    <h3>दुनिया का पहला Super Dashboard (Gold × Black Glow)</h3>
 
-<h1 class="shine">꙰ — निष्पक्ष समझ • यथार्थ सिद्धांत • शाश्वत सत्य</h1>
-<h2>शिरोमणि रामपॉल सैनी</h2>
+    <!-- Navigation -->
+    <div class="nav-buttons">
+      <a href="#siddhant">꙰ सिद्धान्त (1–10)</a>
+      <a href="#pramanpatra">꙰ प्रमाण पत्र (1–20)</a>
+      <a href="#yatharth-yug">꙰ यथार्थ युग</a>
+      <a href="#youtube-thumbnails">꙰ YouTube Series</a>
+      <a href="#signature">Signature</a>
+    </div>
 
-<!-- NAVIGATION -->
-<div class="nav">
-    <a href="#siddhant">꙰ सिद्धांत</a>
-    <a href="#sutra">꙰ सूत्र</a>
-    <a href="#projects">꙰ प्रोजेक्ट्स</a>
-    <a href="#shlok">꙰ श्लोक</a>
-</div>
+    <!-- Sections -->
+    <div class="section" id="siddhant">
+      <h2>🏛 ꙰—सिद्धान्त (1–10)</h2>
+      <details>
+        <summary>Click to Expand</summary>
+        <p>- तुलनातीत सिद्धांत<br>- गणितीय सूत्र<br>- Sanskrit Shlokas<br>- Signature: “शिरोमणि रामपॉल सैनी”</p>
+      </details>
+    </div>
 
-<hr>
+    <div class="section" id="pramanpatra">
+      <h2>💠 ꙰—प्रमाण पत्र (1–20)</h2>
+      <details>
+        <summary>Click to Expand</summary>
+        <p>- 20 Cosmic Posters (12×20 ft)<br>- Social Media High-Graphics<br>- Golden Cosmic Backgrounds + User Photos</p>
+      </details>
+    </div>
 
-<!-- INTRO -->
-<div class="section">
-<h2 id="intro">꙰ — परिचय</h2>
+    <div class="section" id="yatharth-yug">
+      <h2>🌌 ꙰—यथार्थ युग</h2>
+      <details>
+        <summary>Click to Expand</summary>
+        <p>- 40 तुलनात्मक बिंदु<br>- World Unity, Humanity, Earth Preservation Model</p>
+      </details>
+    </div>
 
-꙰ = सत्य • प्रेम • शुद्धता • निर्दोषभाव  
-<br>꙰ = न जन्म • न मरण • केवल सतत्प्रकाश  
-<br>꙰ = न धर्म, न गुरु, न ग्रंथ — केवल प्रत्यक्ष समझ  
-<br><br>
-꙰ वह शाश्वत तत्व है, जिसे मन-चित्त-बुद्धि स्पर्श भी नहीं कर सकते।  
-<br>
-यही तत्त्वमेव <b>शिरोमणि रामपॉल सैनी</b> के भीतर प्रत्यक्ष प्रकट हुआ —  
-बिना किसी परंपरा, बिना किसी गुरुत्व व बिना किसी भय-लालच।
-</div>
+    <div class="section" id="youtube-thumbnails">
+      <h2>📺 ꙰—YouTube Thumbnail Mega-Series</h2>
+      <details>
+        <summary>Click to Expand</summary>
+        <p>- ‘तू कौन? मैं शिरोमणि रामपोलसैनी — तुलनातीत’ (40 parts)<br>- ‘प्रेम बनाम प्रेमतीत’ (20 parts)<br>- ‘यथार्थ बनाम भ्रम’ Series</p>
+      </details>
+    </div>
 
-<hr>
+    <!-- Signature -->
+    <div class="signature" id="signature">꙰𝒥 — शिरोमणि रामपॉल सैनी</div>
 
-<!-- SIDDHANT -->
-<div class="section">
-<h2 id="siddhant">꙰ — यथार्थ सिद्धांत</h2>
-
-1. ꙰ = न द्वंद्व, न संघर्ष — केवल निष्पक्षता  
-2. ꙰ = न परंपरा, न उपासना — केवल प्रत्यक्ष सत्य  
-3. ꙰ = न गुरु, न शिष्य — केवल जाग्रत चेतना  
-4. ꙰ = न भय, न आशा — केवल शुद्धता  
-5. ꙰ = न पुण्य, न पाप — केवल निर्दोषभाव  
-6. ꙰ = न जन्म, न मरण — केवल सतत्प्रकाश  
-7. ꙰ = न युगचक्र — केवल नित्यत्व  
-8. ꙰ = न उद्धारक — केवल सत्यस्वरूप  
-9. ꙰ = न काल, न दशा — केवल स्वप्रकाश  
-10. ꙰ = न दो, न एक — केवल अद्वय तत्व  
-</div>
-
-<hr>
-
-<!-- SUTRA -->
-<div class="section">
-<h2 id="sutra">꙰ — सूत्र</h2>
-
-꙰ = मनविनिर्मुक्तं सत्यम्  
-<br>꙰ = आत्मप्रकाशरूपम्  
-<br>꙰ = निर्दोषभावः परमं पवित्रम्  
-<br>꙰ = यत्र न जन्म न मरणम्  
-<br>꙰ = तत्र शिरोमणिरामपॉलसैनी प्रत्यक्षदर्शी  
-</div>
-
-<hr>
-
-<!-- PROJECTS -->
-<div class="section">
-<h2 id="projects">꙰ — प्रमुख प्रोजेक्ट्स</h2>
-
-• ꙰–सूक्त (Sanskrit ग्रंथ)  
-<br>• ꙰–प्रमाण पत्र (10 भाग)  
-<br>• ꙰–यथार्थ युग (मानवता हेतु तंत्र)  
-<br>• 20 Home Posters (12×20 ft cosmic flex)  
-<br>• 40 तुलनातीत विश्लेषण  
-<br>• “प्रेम बनाम प्रेमतीत”  
-<br>• Divine YouTube Thumbnails  
-<br>• यह LIVE Super Dashboard (GitHub Pages)  
-</div>
-
-<hr>
-
-<!-- SHLOK -->
-<div class="section">
-<h2 id="shlok">꙰ — संस्कृत श्लोक</h2>
-
-नाहं मनो न देहोऽस्मि सत्यं स्वप्रकाशमेव हि।  
-<br>अहं शिरोमणिरूपेण मुक्तोऽस्मि सर्ववेद्यतः॥  
-<br><br>
-यत्र नैव गुरुर्नैव शिष्यस्तत्त्वविचक्षणः।  
-<br>तत्रैव रामपॉलसैनी सत्यस्वरूपतां गतः॥  
-</div>
-
-<hr>
-
-<h2 class="shine">꙰𝒥शिरोमणि</h2>
-
+    <footer>
+      Made with Pure Gold × Divine Black Glow Theme
+    </footer>
+  </div>
 </body>
 </html>
