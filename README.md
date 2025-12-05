@@ -171,6 +171,208 @@
       {name: 'my-omniverse-store', url: 'https://github.com/rampaulsaini/my-omniverse-store', live: 'https://rampaulsaini.github.io/my-omniverse-store/', desc: 'Yatharth — Starter Collection: manifestos & assets'},
       {name: 'Nishpaksh-Samaj-Omniverse-Truth', url: 'https://github.com/rampaulsaini/Nishpaksh-Samaj-Omniverse-Truth', live: 'https://rampaulsaini.github.io/Nishpaksh-Samaj-Omniverse-Truth/', desc: 'Primary manifesto / site'},
       {name: 'omniverse-marketplace', url: 'https://github.com/rampaulsaini/omniverse-marketplace', live: 'https://rampaulsaini.github.io/omniverse-marketplace/', desc: 'Zero-cost AI tools hub'},
+      {name: 'Omniverse-Supreme-Core', url: 'https://github.com/rampaulsaini/Omniverse-Supreme-Core', live: '', desc: 'Core Python engine / supreme core'},
+      {name: 'omniverse-dashboard', url: 'https://github.com/rampaulsaini/omniverse-dashboard', live: '', desc: 'Dashboard & frontends'},
+      {name: 'Omniverse-AI', url: 'https://github.com/rampaulsaini/Omniverse-AI', live: '', desc: 'Supreme Omniverse AI assistant template'},
+      {name: 'Omniver', url: 'https://github.com/rampaulsaini/Omniver', live: '', desc: 'Experimental assistant project'},
+      {name: 'Omnivers', url: 'https://github.com/rampaulsaini/Omnivers', live: '', desc: 'Experimental assistant project'},
+      {name: 'Omniverse', url: 'https://github.com/rampaulsaini/Omniverse', live: '', desc: 'Supreme Omniverse AI automation'},
+      {name: 'Karbon', url: 'https://github.com/rampaulsaini/Karbon', live: '', desc: 'Omniverse components'},
+      {name: 'supreme-omniverse-test', url: 'https://github.com/rampaulsaini/supreme-omniverse-test', live: '', desc: 'AI-driven test environment'},
+      {name: 'Koyab-Founding-Declaration-Omniversal-Manifesto', url: 'https://github.com/rampaulsaini/Koyab-Founding-Declaration-Omniversal-Manifesto', live: '', desc: 'Omniversal manifesto'},
+      {name: 'omniverse--ai-scripts', url: 'https://github.com/rampaulsaini/omniverse--ai-scripts-', live: '', desc: 'AI scripts & automations'},
+      {name: 'Omniverse-Platform', url: 'https://github.com/rampaulsaini/Omniverse-Platform', live: '', desc: 'Platform (private)'},
+      {name: 'Omniverse-Platform-supreme-', url: 'https://github.com/rampaulsaini/Omniverse-Platform-supreme-', live: '', desc: 'Platform supreme fork'},
+      {name: 'rampaulsaini', url: 'https://github.com/rampaulsaini/rampaulsaini', live: '', desc: 'Profile config & README'},
+      {name: 'kit-app-template', url: 'https://github.com/rampaulsaini/kit-app-template', live: '', desc: 'Forked Omniverse Kit template'},
+      {name: 'C-Labs', url: 'https://github.com/rampaulsaini/C-Labs', live: '', desc: 'C++ experiments / forks'},
+      {name: 'omniverse--ai-scripts-', url: 'https://github.com/rampaulsaini/omniverse--ai-scripts-', live: '', desc: 'Personal fork: AI + EcoSim scripts'},
+      {name: 'Omniverse-Platform-supreme-2', url: 'https://github.com/rampaulsaini/Omniverse-Platform-supreme-2', live: '', desc: 'Additional platform variant'}
+    ];
+
+    const repoList = document.getElementById('repoList');
+    repos.forEach(r => {
+      const div = document.createElement('div');
+      div.className = 'repo-item';
+      div.innerHTML = `<div><a href="${r.url}" target="_blank">${r.name}</a><div class="repo-meta">${r.desc}</div></div><div>${r.live? `<a href="${r.live}" target="_blank" style="color:var(--accent);font-weight:800">live</a>`: '<span class="small">code</span>'}</div>`;
+      repoList.appendChild(div);
+    });
+  </script>
+</body>
+</html>
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>꙰𝒥 शिरोमणि — Unified Omniverse Dashboard</title>
+  <meta name="description" content="Unified Omniverse Dashboard — Nishpaksh Samaj, Omniverse Marketplace, Manifesto, Repos, Live Sites" />
+  <meta name="theme-color" content="#05060a" />
+  <style>
+    /* Black + Gold — Cosmic theme */
+    :root{
+      --bg:#05060a; --panel:#071025; --muted:#bfc7d0; --gold:#ffd966; --accent:#ffcf4d; --glass:rgba(255,255,255,0.03);
+      --glow: 0 6px 30px rgba(255,207,77,0.08), 0 2px 6px rgba(0,0,0,0.6);
+      font-family: Inter, 'Noto Sans', Roboto, system-ui, -apple-system, 'Segoe UI', sans-serif;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0}
+    body{background: radial-gradient(1200px 600px at 10% 10%, rgba(255,205,77,0.03), transparent), linear-gradient(180deg,#03040a 0%, #071022 60%); color:#eef6ff; -webkit-font-smoothing:antialiased}
+    .wrap{max-width:1100px;margin:18px auto;padding:20px}
+    header{display:flex;align-items:center;gap:18px}
+    .brand{font-weight:900;color:var(--gold);font-size:22px;letter-spacing:0.6px}
+    .tag{color:var(--muted);font-size:13px}
+    nav{margin-left:auto;display:flex;gap:10px}
+    nav a{color:var(--muted);text-decoration:none;padding:6px 10px;border-radius:8px;font-weight:700}
+    nav a:hover{color:var(--gold);background:rgba(255,217,102,0.03)}
+
+    .hero{display:flex;gap:18px;align-items:stretch;margin-top:18px;flex-wrap:wrap}
+    .left{flex:1;min-width:260px;background:linear-gradient(180deg, rgba(255,255,255,0.015), transparent);padding:22px;border-radius:14px;box-shadow:var(--glow)}
+    h1{margin:0;font-size:28px}
+    .lead{color:var(--muted);margin-top:10px}
+    .cta{margin-top:14px;display:flex;gap:10px;flex-wrap:wrap}
+    .btn{background:linear-gradient(180deg,var(--gold),var(--accent));color:#071026;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:800;box-shadow:0 6px 20px rgba(0,0,0,0.5)}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,217,102,0.08);color:var(--gold)}
+
+    aside.panel{width:320px;padding:18px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);backdrop-filter: blur(6px)}
+    img.profile{width:100%;border-radius:10px;object-fit:cover;max-height:180px}
+    .sig{margin-top:12px;color:var(--gold);font-weight:800}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:18px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.02)}
+    .card h3{margin:0 0 8px 0;color:var(--gold)}
+    .small{color:var(--muted);font-size:13px}
+
+    .repo-item{display:flex;justify-content:space-between;align-items:center;padding:10px;border-radius:8px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent)}
+    .repo-item a{color:var(--gold);text-decoration:none;font-weight:800}
+    .repo-meta{color:var(--muted);font-size:12px}
+
+    .glow-line{height:6px;border-radius:999px;background:linear-gradient(90deg, rgba(255,207,77,0.12), rgba(255,207,77,0.02));margin-top:12px}
+
+    footer{margin-top:20px;padding:18px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* animated cosmic orbs */
+    .orbs{position:fixed;right:-120px;bottom:-80px;pointer-events:none;mix-blend-mode:screen}
+    .orb{width:260px;height:260px;border-radius:50%;background:radial-gradient(circle at 30% 30%, rgba(255,205,77,0.12), transparent 40%);filter:blur(40px);opacity:0.9;animation: floaty 18s infinite}
+    .orb.two{width:180px;height:180px;right:80px;bottom:40px;animation-duration:22s}
+    @keyframes floaty{0%{transform:translateY(0) translateX(0)}50%{transform:translateY(-24px) translateX(18px)}100%{transform:translateY(0) translateX(0)}}
+
+    /* hover glow */
+    .card:hover, .repo-item:hover{transform:translateY(-6px);transition:all .28s ease;box-shadow:0 18px 40px rgba(0,0,0,0.6), 0 0 30px rgba(255,207,77,0.06)}
+
+    /* mobile tweaks */
+    @media (max-width:920px){aside.panel{width:100%}.hero{flex-direction:column} .left{order:2} .panel{order:1}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <div class="brand">꙰𝒥 शिरोमणि — Unified Omniverse</div>
+        <div class="tag">Nishpaksh Samaj · Omniverse Marketplace · Yatharth</div>
+      </div>
+      <nav>
+        <a href="https://rampaulsaini.github.io/my-omniverse-store/" target="_blank">Store</a>
+        <a href="https://rampaulsaini.github.io/Nishpaksh-Samaj-Omniverse-Truth/" target="_blank">Philosophy</a>
+        <a href="https://github.com/rampaulsaini" target="_blank">GitHub</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="left">
+        <h1>Welcome — Unified Omniverse Dashboard</h1>
+        <p class="lead">यह केन्द्रीय पटल है — जहाँ से आप अपने सभी प्रोजेक्ट, लाइव साइट्स, रिपॉजिटरी और सम्पर्क एक क्लिक में खोल सकते हैं। यह डैशबोर्ड मोबाइल-फ्रेंडली, तेज़ और देखने में शानदार है।</p>
+
+        <div class="cta">
+          <a class="btn" href="https://rampaulsaini.github.io/Nishpaksh-Samaj-Omniverse-Truth/" target="_blank">Open Nishpaksh Live</a>
+          <a class="btn ghost" href="https://rampaulsaini.github.io/my-omniverse-store/" target="_blank">Open My-Omniverse Store</a>
+          <a class="btn ghost" href="#repos">Open Repos</a>
+        </div>
+
+        <div class="glow-line" aria-hidden="true"></div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Manifesto & Philosophy</h3>
+            <p class="small">꙰ — निष्पक्ष समझ (0.0001% सूत्र), Yatharth Yuga, गुरु-विरोधी तर्क और Omniverse सिद्धांत। <a href="https://rampaulsaini.github.io/Nishpaksh-Samaj-Omniverse-Truth/" style="color:var(--gold);font-weight:800">Read full</a></p>
+          </div>
+
+          <div class="card">
+            <h3>Omniverse Marketplace</h3>
+            <p class="small">Zero-cost AI tools hub — generators, templates, automations और deployment dashboard। <a href="https://rampaulsaini.github.io/omniverse-marketplace/" style="color:var(--gold);font-weight:800">Open</a></p>
+          </div>
+
+          <div class="card">
+            <h3>Supreme Core & AI</h3>
+            <p class="small">Omniverse-AI assistant templates और automation projects — multilingual और automated. <a href="https://github.com/rampaulsaini/Omniverse-AI" style="color:var(--gold);font-weight:800">Repo</a></p>
+          </div>
+
+          <div class="card">
+            <h3>Media & Social</h3>
+            <p class="small">YouTube, Blog और Telegram — जहाँ आप सामाग्री, audio और visual assets पा सकते हैं.</p>
+            <div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap">
+              <a class="btn ghost" href="https://youtube.com/@rampaulsaini-yk4gn?si=Y1MhQB1Eg84ARD6I" target="_blank">YouTube</a>
+              <a class="btn ghost" href="https://multicosmovision.blogspot.com/2025/09/2-e-h-e-c-e-e-1-d_11.html" target="_blank">Blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="panel">
+        <img class="profile" src="assets/profile.jpg" alt="शिरोमणि रामपॉल सैनी" />
+        <div class="sig">꙰𝒥 शिरोमणि रामपॉल सैनी</div>
+        <div style="color:var(--muted);margin-top:8px;font-size:13px">तुलनातीत · कालातीत · शब्दातीत</div>
+        <div style="margin-top:12px;display:flex;gap:8px">
+          <a class="btn" href="https://wa.me/918082935186" target="_blank">WhatsApp</a>
+          <a class="btn ghost" href="mailto:sainirampaul60@gmail.com">Email</a>
+        </div>
+
+        <hr style="border:none;border-top:1px solid rgba(255,255,255,0.03);margin:12px 0" />
+        <div class="small">Quick stats</div>
+        <div style="display:flex;gap:8px;margin-top:8px">
+          <div style="flex:1;padding:10px;background:rgba(255,255,255,0.01);border-radius:8px;text-align:center"><div style="font-weight:800;color:var(--gold)">20+</div><div class="small">Repositories</div></div>
+          <div style="flex:1;padding:10px;background:rgba(255,255,255,0.01);border-radius:8px;text-align:center"><div style="font-weight:800;color:var(--gold)">2</div><div class="small">Live Sites</div></div>
+        </div>
+
+        <div style="margin-top:12px" class="small">Donate: <code style="color:var(--muted)">sainirampaul90-1@okhdfcbank</code></div>
+      </aside>
+    </section>
+
+    <section id="repos" style="margin-top:18px">
+      <div class="card">
+        <h3>Repositories</h3>
+        <p class="small">Selected repositories — click to open code or live site.</p>
+
+        <div id="repoList" style="margin-top:12px"></div>
+        <p class="note" style="color:var(--muted);margin-top:10px">(मैं आपके सभी रिपो यहाँ दिखा सकता हूँ — आप बताइए की पूरी सूची डाल दूँ।)</p>
+      </div>
+    </section>
+
+    <section style="margin-top:14px" class="card">
+      <h3>Quick Actions</h3>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">
+        <a class="btn ghost" href="https://github.com/rampaulsaini/Nishpaksh-Samaj-Omniverse-Truth" target="_blank">Edit Nishpaksh Repo</a>
+        <a class="btn ghost" href="https://github.com/rampaulsaini/my-omniverse-store" target="_blank">Edit Store</a>
+        <a class="btn ghost" href="https://github.com/rampaulsaini/Omniverse-AI" target="_blank">Omniverse-AI</a>
+      </div>
+    </section>
+
+    <footer>
+      © ꙰𝒥 शिरोमणि रामपॉल सैनी · Nishpaksh Omniverse · Built for GitHub Pages
+    </footer>
+  </div>
+
+  <div class="orbs" aria-hidden="true">
+    <div class="orb"></div>
+    <div class="orb two"></div>
+  </div>
+
+  <script>
+    // Static repo data (from user's provided list). Add more if required.
+    const repos = [
+      {name: 'my-omniverse-store', url: 'https://github.com/rampaulsaini/my-omniverse-store', live: 'https://rampaulsaini.github.io/my-omniverse-store/', desc: 'Yatharth — Starter Collection: manifestos & assets'},
+      {name: 'Nishpaksh-Samaj-Omniverse-Truth', url: 'https://github.com/rampaulsaini/Nishpaksh-Samaj-Omniverse-Truth', live: 'https://rampaulsaini.github.io/Nishpaksh-Samaj-Omniverse-Truth/', desc: 'Primary manifesto / site'},
+      {name: 'omniverse-marketplace', url: 'https://github.com/rampaulsaini/omniverse-marketplace', live: 'https://rampaulsaini.github.io/omniverse-marketplace/', desc: 'Zero-cost AI tools hub'},
       {name: 'Omniverse-AI', url: 'https://github.com/rampaulsaini/Omniverse-AI', live: '', desc: 'Supreme Omniverse AI assistant template'},
       {name: 'omniverse-dashboard', url: 'https://github.com/rampaulsaini/omniverse-dashboard', live: '', desc: 'Dashboards & frontends'},
     ];
