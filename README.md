@@ -55,3 +55,6 @@
 <span style="color:gold; font-size:22px;">꙰ शिरोमणि रामपॉल सैनी</span>
 
 </div>
+<div align="center">
+<span style="color:gold; font-size:22px;">꙰ शिरोमणि रामपॉल सैनी</span>
+</div>
