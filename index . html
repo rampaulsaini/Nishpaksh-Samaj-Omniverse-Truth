@@ -1,3 +1,194 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Omniverse Dashboard — ꙰ Nishpaksh Samaj — शिरोमणि रामपॉल सैनी</title>
+  <meta name="description" content="Unified Omniverse Dashboard — GitHub, Live Sites, Manifesto, Audio, Contact — शिरोमणि रामपॉल सैनी" />
+  <meta name="theme-color" content="#071022" />
+  <style>
+    :root{
+      --bg:#04050a; --card:#071026; --muted:#bfc9d7; --gold:#ffd966; --accent:#ffcf4d;
+      --glass: rgba(255,255,255,0.03);
+      font-family: "Noto Sans", Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#03040b 0%, #07122a 60%);color:#eaf2ff;min-height:100vh}
+    .wrap{max-width:1100px;margin:18px auto;padding:18px}
+    header{display:flex;align-items:center;gap:16px}
+    .brand{font-weight:800;color:var(--gold);font-size:20px}
+    .subtitle{color:var(--muted);font-size:13px}
+    nav{margin-left:auto;display:flex;gap:10px}
+    nav a{color:var(--muted);text-decoration:none;font-weight:700;font-size:13px}
+    .hero{display:flex;gap:18px;align-items:center;margin-top:16px;flex-wrap:wrap}
+    .left{flex:1;min-width:260px;padding:18px;border-radius:14px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);box-shadow:0 12px 30px rgba(0,0,0,0.6)}
+    h1{margin:0;font-size:26px}
+    .lead{color:var(--muted);margin-top:8px}
+    .cta{margin-top:12px;display:flex;gap:10px;flex-wrap:wrap}
+    .btn{background:var(--gold);color:#071026;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:800}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,217,102,0.08);color:var(--gold)}
+    aside{width:300px;padding:14px;border-radius:12px;background:var(--glass)}
+    img.profile{width:100%;border-radius:8px;object-fit:cover;max-height:170px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:18px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.015), transparent);padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.02)}
+    .card h3{margin:0 0 8px 0;color:var(--gold)}
+    .small{color:var(--muted);font-size:13px}
+    footer{margin-top:20px;padding:18px;text-align:center;color:var(--muted);font-size:13px}
+    .repo-list{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+    .repo-item{display:flex;justify-content:space-between;align-items:center;padding:10px;border-radius:8px;background:rgba(255,255,255,0.01)}
+    .repo-item a{color:var(--accent);text-decoration:none;font-weight:700}
+    .links{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+    .chip{padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.02);color:var(--muted);font-weight:700;font-size:13px}
+    .note{color:var(--muted);font-size:13px;margin-top:8px}
+    @media (max-width:880px){
+      aside{width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <div class="brand">꙰ Nishpaksh Omniverse Dashboard</div>
+        <div class="subtitle">शिरोमणि रामपॉल सैनी — तुलनातीत · कालातीत · शब्दातीत</div>
+      </div>
+      <nav>
+        <a href="https://github.com/rampaulsaini">GitHub</a>
+        <a href="https://rampaulsaini.github.io/my-omniverse-store/">Store Live</a>
+        <a href="https://rampaulsaini.github.io/Nishpaksh-Samaj-Omniverse-Truth/">Nishpaksh Live</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="left">
+        <h1>Unified Omniverse — Quick Launch</h1>
+        <p class="lead">सभी प्रोजेक्ट्स, लाइव पेज, सोशल और संपर्क — एक ही जगह से खोलें। यह पेज GitHub Pages के लिए तैयार है और मोबाइल पर सुंदर दिखेगा।</p>
+
+        <div class="cta">
+          <a class="btn" href="https://rampaulsaini.github.io/Nishpaksh-Samaj-Omniverse-Truth/" target="_blank" rel="noopener">Open Nishpaksh Live</a>
+          <a class="btn ghost" href="https://github.com/rampaulsaini" target="_blank" rel="noopener">Open GitHub</a>
+          <a class="btn ghost" href="#repos" onclick="document.getElementById('repos').scrollIntoView({behavior:'smooth'})">Open Repos</a>
+        </div>
+
+        <div class="grid" style="margin-top:18px">
+          <div class="card">
+            <h3>Quick Links</h3>
+            <div class="links">
+              <a class="chip" href="https://rampaulsaini.github.io/my-omniverse-store/" target="_blank">my-omniverse-store (live)</a>
+              <a class="chip" href="https://github.com/rampaulsaini/Nishpaksh-Samaj-Omniverse-Truth" target="_blank">Nishpaksh-Repo</a>
+              <a class="chip" href="https://multicosmovision.blogspot.com/2025/09/2-e-h-e-c-e-e-1-d_11.html" target="_blank">Blog</a>
+              <a class="chip" href="https://youtube.com/@rampaulsaini-yk4gn?si=Y1MhQB1Eg84ARD6I" target="_blank">YouTube</a>
+              <a class="chip" href="https://chat.whatsapp.com/CxwzR0ufxdL4yAGCqifPRh?mode=wwt" target="_blank">WhatsApp Group</a>
+              <a class="chip" href="https://t.me/sampaulsaini" target="_blank">Telegram</a>
+            </div>
+            <p class="note">Tip: Mobile पर ऊपर के बॉटन्स से सीधे Live sites खोलें।</p>
+          </div>
+
+          <div class="card">
+            <h3>Device & AI Note</h3>
+            <p class="small">Redmi Note 9 पर आप सभी <strong>static</strong> websites (GitHub Pages) खोलकर चला सकते हैं। पर भारी AI models (जैसे Gemini Nano) और server-side Python/automations फोन पर नहीं चलेंगे।</p>
+            <p class="note">यदि आप ऑन-डिवाइस AI चाहते हैं, तो Pixel 9 / Samsung S25 जैसी devices की आवश्यकता होगी।</p>
+          </div>
+
+          <div class="card">
+            <h3>Donate / Support</h3>
+            <p class="small">UPI: <code style="color:var(--muted)">sainirampaul90-1@okhdfcbank</code></p>
+            <p class="small">PayPal: <a href="https://paypal.me/sainirampaul60" style="color:var(--gold)">paypal.me/sainirampaul60</a></p>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <img class="profile" src="assets/profile.jpg" alt="शिरोमणि रामपॉल सैनी" />
+        <h3 style="margin:10px 0 6px 0">शिरोमणि रामपॉल सैनी</h3>
+        <div class="small">तुलनातीत · कालातीत · शब्दातीत</div>
+        <div style="margin-top:10px">
+          <a class="btn" href="#contact" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Contact</a>
+        </div>
+      </aside>
+    </section>
+
+    <section id="repos" style="margin-top:18px">
+      <div class="card">
+        <h3>Repositories (Selected)</h3>
+        <div class="repo-list">
+          <!-- Hard-coded from your repo list you shared -->
+          <div class="repo-item">
+            <div>
+              <a href="https://github.com/rampaulsaini/omniverse-marketplace" target="_blank">omniverse-marketplace</a>
+              <div class="small">Zero-cost AI tools hub</div>
+            </div>
+            <div class="small"><a href="https://rampaulsaini.github.io/omniverse-marketplace/" target="_blank" style="color:var(--accent)">live</a></div>
+          </div>
+
+          <div class="repo-item">
+            <div>
+              <a href="https://github.com/rampaulsaini/Omniverse-AI" target="_blank">Omniverse-AI</a>
+              <div class="small">Supreme Omniverse AI Assistant (template)</div>
+            </div>
+            <div class="small"><a href="https://github.com/rampaulsaini/Omniverse-AI" target="_blank" style="color:var(--accent)">code</a></div>
+          </div>
+
+          <div class="repo-item">
+            <div>
+              <a href="https://github.com/rampaulsaini/Nishpaksh-Samaj-Omniverse-Truth" target="_blank">Nishpaksh-Samaj-Omniverse-Truth</a>
+              <div class="small">Primary manifesto / site</div>
+            </div>
+            <div class="small"><a href="https://rampaulsaini.github.io/Nishpaksh-Samaj-Omniverse-Truth/" target="_blank" style="color:var(--accent)">live</a></div>
+          </div>
+
+          <div class="repo-item">
+            <div>
+              <a href="https://github.com/rampaulsaini/my-omniverse-store" target="_blank">my-omniverse-store</a>
+              <div class="small">꙰ Yatharth — Starter Collection (live)</div>
+            </div>
+            <div class="small"><a href="https://rampaulsaini.github.io/my-omniverse-store/" target="_blank" style="color:var(--accent)">live</a></div>
+          </div>
+
+          <div class="repo-item">
+            <div>
+              <a href="https://github.com/rampaulsaini/omniverse-dashboard" target="_blank">omniverse-dashboard</a>
+              <div class="small">Dashboard / frontends</div>
+            </div>
+            <div class="small"><a href="https://github.com/rampaulsaini/omniverse-dashboard" target="_blank" style="color:var(--accent)">code</a></div>
+          </div>
+        </div>
+        <p class="note">(यदि आप चाहें तो मैं यहाँ और सारे रिपो जोड़ दूँ — बताइए मैं सभी 20 रिपो दिखा दूं.)</p>
+      </div>
+    </section>
+
+    <section style="margin-top:14px" class="card">
+      <h3>Live Sites & Social</h3>
+      <div class="links" style="margin-top:8px">
+        <a class="chip" href="https://rampaulsaini.github.io/my-omniverse-store/" target="_blank">my-omniverse-store (Live)</a>
+        <a class="chip" href="https://rampaulsaini.github.io/Nishpaksh-Samaj-Omniverse-Truth/" target="_blank">Nishpaksh (Live)</a>
+        <a class="chip" href="https://multicosmovision.blogspot.com/2025/09/2-e-h-e-c-e-e-1-d_11.html" target="_blank">Blog</a>
+        <a class="chip" href="https://youtube.com/@rampaulsaini-yk4gn?si=Y1MhQB1Eg84ARD6I" target="_blank">YouTube</a>
+        <a class="chip" href="https://www.facebook.com/share/1Bc9qeE5uB/" target="_blank">Facebook</a>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:14px" class="card">
+      <h3>Contact</h3>
+      <p class="small">Email: <code style="color:var(--muted)">sainirampaul60@gmail.com</code></p>
+      <p class="small">WhatsApp: <a href="https://wa.me/918082935186" style="color:var(--gold)">+91 80829 35186</a></p>
+      <p class="small">Telegram: <a href="https://t.me/sampaulsaini" style="color:var(--gold)">t.me/sampaulsaini</a></p>
+    </section>
+
+    <footer>
+      © ꙰ Nishpaksh Samaj — शिरोमणि रामपॉल सैनी · Built for GitHub Pages · <span style="color:var(--muted)">Mobile friendly</span>
+    </footer>
+  </div>
+</body>
+</html>
+# यदि रिपो लोकल में नहीं है:
+git clone https://github.com/rampaulsaini/Nishpaksh-Samaj-Omniverse-Truth.git
+cd Nishpaksh-Samaj-Omniverse-Truth
+
+# index.html फ़ाइल को रिप्लेस/पेस्ट करें और assets फ़ोल्डर रखें
+git add index.html assets/
+git commit -m "Add Unified Omniverse Dashboard (index.html) — Black+Gold"
+git push origin main
 # ꙰ Nishpaksh Samaj – Omniverse Truth  
 ### **By Shromani Rampaul Saini**
 ---
