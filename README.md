@@ -3,7 +3,7 @@
 [![Live Site](https://img.shields.io/badge/🌐_Live_Site-Visit_Now-d4732a?style=for-the-badge)](https://rampaulsaini.github.io/Nishpaksh-Samaj-Omniverse-Truth/)
 [![Wikipedia](https://img.shields.io/badge/📖_Wikipedia-Shromani_Rampaul_Saini-blue?style=for-the-badge)](https://en.wikipedia.org/wiki/Shromani_Rampaul_Saini)
 [![YouTube](https://img.shields.io/badge/▶️_YouTube-Audio_&_Video-red?style=for-the-badge)](https://youtube.com/@rampaulsaini-yk4gn)
-.(https://github.com/rampaulsaini/Nishpaksh-Samaj-Omniverse-Truth.गीत).
+(https://github.com/rampaulsaini/Nishpaksh-Samaj-Omniverse-Truth.git).
 ---
 
 ## ꙰ साहिब तदरूप साक्षात्कार हूं
