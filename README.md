@@ -35,7 +35,9 @@
 
 ### मुख्य दस्तावेज़
 
-📖 **[YATHARTH-SIDDHANT-YATHARTH-YUG.md](./YATHARTH-SIDDHANT-YATHARTH-YUG.md)**
+📖 **[सम्पूर्ण यथार्थ युग ग्रंथ-संग्रह](./docs/README.md)**  
+
+📖 मूल रूपरेखा: **[YATHARTH-SIDDHANT-YATHARTH-YUG.md](./YATHARTH-SIDDHANT-YATHARTH-YUG.md)**
 
 इस दस्तावेज़ में शामिल हैं:
 
