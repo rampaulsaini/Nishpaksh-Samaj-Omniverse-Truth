@@ -26,3 +26,13 @@
 - reproducible डेटा संग्रह
 - आलोचनात्मक समीक्षा
 - स्वतंत्र शोधकर्ताओं की प्रतिक्रिया
+
+
+## 🔗 External/Legacy Research Repositories
+
+केंद्रीय शोध-संग्रह के साथ जुड़े repositories:
+
+1. [Shirmani Research Paper](https://github.com/rampaulsaini/Shirmani-Research-Paper)
+2. [Shirmani Research Institute](https://github.com/rampaulsaini/Shirmani-Research-Institute-Shirmani-Research-Institute-)
+
+[Integration architecture](../research-integration/SHIRMANI-REPOSITORIES.md)
