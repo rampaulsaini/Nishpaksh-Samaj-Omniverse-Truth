@@ -229,3 +229,14 @@ git push origin main
 
 *© Yatharth Siddhant — निष्पक्ष समझ — शिरोमणि रामपॉल सैनी*  
 *सबके लिए · बिना Login · बिना शर्त · अनंत असीम प्रेम*
+
+
+## 🔗 Integrated Shirmani Research Network
+
+इस केंद्रीय repository के साथ दो मौजूदा research repositories भी जोड़ी गई हैं:
+
+- [Shirmani Research Paper](https://github.com/rampaulsaini/Shirmani-Research-Paper) — Research Paper Archive
+- [Shirmani Research Institute](https://github.com/rampaulsaini/Shirmani-Research-Institute-Shirmani-Research-Institute-) — Institute, Archive, Media & Publications
+- [Integration Index](./research-integration/SHIRMANI-REPOSITORIES.md) — पूरी वास्तुकला और आगे के integration rules
+
+इन repositories को अभी **linked canonical network** के रूप में रखा गया है, ताकि उनका मौजूदा इतिहास और स्वतंत्र GitHub Pages सुरक्षित रहें। चयनित सामग्री को आगे attribution और source-status के साथ केंद्रीय corpus में व्यवस्थित किया जा सकता है।
